@@ -26,7 +26,7 @@ This document describes the steps to install various components of FIDM (Financi
   # cd /opt
   # git clone https://github.com/pwarawit/fidm.git
   ```
-  Note: use `git pull origin master` to get latest fetch from the remote repo.
+  Note: use `git pull origin master` to get latest fetch from the remote repo, and use `git push origin master` to push changes made locally (don't forget to add/commit first) to remote repo.
 
-
+2. 
 
