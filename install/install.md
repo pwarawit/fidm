@@ -21,10 +21,10 @@ This document describes the steps to install various components of FIDM (Financi
   # git config --global user.email p.warawit@gmail.com
   ```
   
-  * Create fidm application home directory and initialize it
+  * Clone fidm repo from github - you'll need to provide pwarawit user and password
   ```
-  # mkdir /opt/fidm
-  # cd /opt/fidm
+  # cd /opt
+  # git clone https://github.com/pwarawit/fidm.git
   ```
 
 
