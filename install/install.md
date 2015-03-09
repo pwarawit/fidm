@@ -26,5 +26,7 @@ This document describes the steps to install various components of FIDM (Financi
   # cd /opt
   # git clone https://github.com/pwarawit/fidm.git
   ```
+  Note: use `git fetch origin` to get latest fetch from the remote repo.
+
 
 
