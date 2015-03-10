@@ -16,14 +16,15 @@ systemctl start httpd
 
 # Configure phpPgAdmin
 cp /etc/phpPgAdmin/config.inc.php /etc/phpPgAdmin/config.inc.php.orig
-sed -i "s/$conf['servers'][0]['host'] = '';/$conf['servers'][0]['host'] = 'localhost';/g" /etc/phpPgAdmin/config.inc.php
-sed -i "s/$conf['extra_login_security'] = true;/$conf['extra_login_security'] = false;/g" /etc/phpPgAdmin/config.inc.php
-sed -i "s/$conf['owned_only'] = false;/$conf['owned_only'] = true;/g" /etc/phpPgAdmin/config.inc.php
+sed -i "s/\$conf\['servers'\]\[0\]\['host'\] = '';/\$conf\['servers'\]\[0\]\['host'\] = 'localhost';/g" /etc/phpPgAdmin/config.inc.php 
+sed -i "s/\$conf\['extra_login_security'\] = true;/\$conf\['extra_login_security'\] = false;/g" /etc/phpPgAdmin/config.inc.php 
+sed -i "s/\$conf\['owned_only'\] = false;/\$conf\['owned_only'\] = true;/g" /etc/phpPgAdmin/config.inc.php 
 
 # Restart postgresql server & Apache
 systemctl restart postgresql-9.4
 systemctl restart httpd
 
 # Allow httpd to connect database
-setssebool -P httpd_can_network_connect_db 1
+setsebool -P httpd_can_network_connect_db 1
+
 
