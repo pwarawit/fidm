@@ -35,3 +35,6 @@ These steps are included in file install_01.sh - it must be executed as root. Th
   * Setup time zones 
   * Install some important packages : wget, screen, 
 
+3. Install PostgreSQL 9.4 -- using install_02.sh
+This script will install and configure postgresql9.4 - it will pause and ask for the password of postgres user.
+
