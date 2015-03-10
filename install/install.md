@@ -35,6 +35,21 @@ These steps are included in file install_01.sh - it must be executed as root. Th
   * Setup time zones 
   * Install some important packages : wget, screen, 
 
+
+Create new virtualbox guest os - using the downloaded CentOS7 minimal ISO file 
+parameter - 4GB of RAM, 20GB of Hard disk - use VHD (for compatibility with Hyper V)
+with Network : Bridged Adapter , promiscuous - allow all. 
+
+Then install the server - root password: 
+
+this is all console, text based. 
+
+Modify the following command to change the screen size of the console to 1024x768
+
+#vi /etc/default/grub → in this file - add into the GRUB_CMD_LINE_LINUX this clause vga=791
+Then run this
+#grub2-mkconfig -o /boot/grub2/grub.cfg
+
 3. Install PostgreSQL 9.4 -- using install_02.sh
 This script will install and configure postgresql9.4 - it will pause and ask for the password of postgres user.
 
