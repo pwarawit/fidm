@@ -3,12 +3,13 @@ FIDM Installation Instruction
 This document describes the steps to install various components of FIDM (Financial DataMart). 
 
 # High level steps
-1. Update CentOS 7 package repository and install git (to get this repo) - this step need to be executed as root.
+1. Install git and clone fidm repo
+1. Install some important packages
+1. Install PostgreSQL server 9.4
 
-  * update yum repository
-  ```
-  # yum -y update all
-  ```
+# Details steps
+1. Install git and clone fidm repo
+These steps need to be executed as root. 
 
   * Install git
   ```
@@ -28,5 +29,9 @@ This document describes the steps to install various components of FIDM (Financi
   ```
   Note: use `git pull origin master` to get latest fetch from the remote repo, and use `git push origin master` to push changes made locally (don't forget to add/commit first) to remote repo.
 
-2. 
+2. Install some important packages. 
+These steps are included in file install_01.sh - it must be executed as root. The script do the following:
+  * Update yum repository
+  * Setup time zones 
+  * Install some important packages : wget, screen, 
 
