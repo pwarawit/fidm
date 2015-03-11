@@ -18,7 +18,7 @@ sudo sed -i s/"system\/hibernate\/hsql.hibernate.cfg.xml"/"system\/hibernate\/po
 # Change the hibernate security properties file (/opt/pentaho/biserver-ce/pentaho-solutions/system/applicationContext-spring-security-hibernate.properties)
 cp /opt/pentaho/biserver-ce/pentaho-solutions/system/applicationContext-spring-security-hibernate.properties /opt/pentaho/biserver-ce/pentaho-solutions/system/applicationContext-spring-security-hibernate.properties.orig
 sudo sed -i s/"org.hsqldb.jdbcDriver"/"org.postgresql.Driver"/g /opt/pentaho/biserver-ce/pentaho-solutions/system/applicationContext-spring-security-hibernate.properties
-sudo sed -i s/"jdbc:hsqldb:hsql:\/\/localhost\/hibernate"/"jdbc:postgresql:\/\/localhost:5432\/hibernate"/g /opt/pentaho/biserver-ce/pentaho-solutions/system/applicationContext-spring-security-hibernate.properties
+sudo sed -i s/"jdbc:hsqldb:hsql:\/\/localhost:9001\/hibernate"/"jdbc:postgresql:\/\/localhost:5432\/hibernate"/g /opt/pentaho/biserver-ce/pentaho-solutions/system/applicationContext-spring-security-hibernate.properties
 
 # Change the jdbc properties file (/opt/pentaho/biserver-ce/pentaho-solutions/system/simple-jndi/jdbc.properties)
 cp /opt/pentaho/biserver-ce/pentaho-solutions/system/simple-jndi/jdbc.properties /opt/pentaho/biserver-ce/pentaho-solutions/system/simple-jndi/jdbc.properties.orig

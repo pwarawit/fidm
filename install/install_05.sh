@@ -21,9 +21,9 @@ firewall-cmd --reload
 mkdir /opt/pentaho
 cd /opt/pentaho
 wget http://downloads.sourceforge.net/project/pentaho/Business%20Intelligence%20Server/5.3/biserver-ce-5.3.0.0-213.zip
-mkdir /opt/pentaho/server
-mv biserver-ce-5.3.0.0-213.zip server
-cd /opt/pentaho/server
+# mkdir /opt/pentaho/server
+# mv biserver-ce-5.3.0.0-213.zip server
+# cd /opt/pentaho/server
 unzip biserver-ce-5.3.0.0-213.zip
 
 # Give the whole /opt/pentaho to pentaho
