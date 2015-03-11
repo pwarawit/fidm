@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# This function will use 
+# This function will create both linux user and postgres database user.
 function cr_fidm {
     # $1 - name of the user (default fidm, but could be other)
     # $2 - password

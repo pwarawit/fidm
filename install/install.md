@@ -4,8 +4,9 @@ This document describes the steps to install various components of FIDM (Financi
 
 # High level steps
 1. Install git and clone fidm repo
-1. Install some important packages
-1. Install PostgreSQL server 9.4
+1. Install some important packages (install_01.sh)
+1. Install PostgreSQL server 9.4 (install_02.sh)
+1. Install phpPgAdmin & Apache (install_03.sh)
 
 # Details steps
 1. Install git and clone fidm repo
@@ -36,5 +37,26 @@ These steps are included in file install_01.sh - it must be executed as root. Th
   * Install some important packages : wget, screen, 
 
 3. Install PostgreSQL 9.4 -- using install_02.sh
-This script will install and configure postgresql9.4 - it will pause and ask for the password of postgres user.
+This script will install and configure postgresql9.4  - it must be executed as root.
+
+4. Install phpPgAdmin & Apache -- using install_03.sh
+This script must be executed as root.
+
+5. Create user fidm and grant all required priviledgess -- using install_04.sh
+This script will ask for password twice, record it into an environment variable and use it to supply as password for newnewly created linux user 'fidm'. The following components are in install_04.sh
+  * asking for password
+  * create fidm user role in postgres
+  * create .pgpass file
+  * make fidm owner of /opt/fidm
+  * fidm can sudo
+
+6. Create Pentaho user and install Pentaho -- using install_05.sh
+This script must be executed as root. It will do the following:
+  * Install java
+  * If not exists, add linux user pentaho 
+  * create /opt/pentaho, download the package and unzip it.
+
+7. Create 3 pentaho-required databases on posgresql server -- using install_06.sh
+
+8. Configure Pentaho by changing several xml, properties files to allow postgres as BA repository -- using install_07.sh
 
