@@ -13,6 +13,6 @@ service ntpd start
 timedatectl set-timezone Asia/Bangkok
 
 # Install some utilities packages : wget, screen, 
-yum -y install wget screen
+yum -y install wget screen zip unzip
 
 
