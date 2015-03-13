@@ -13,6 +13,7 @@ firewall-cmd --reload
 # Modifying pg_hba.conf
 cp /var/lib/pgsql/9.4/data/pg_hba.conf /var/lib/pgsql/9.4/data/pg_hba.conf.orig
 sed -i "/^host/s/ident/md5/g" /var/lib/pgsql/9.4/data/pg_hba.conf
+sed -i "/^local/s/peer/trust/g" /var/lib/pgsql/9.4/data/pg_hba.conf
 
 # Modifying postgresql.conf -- allow tcp/ip connection
 cp /var/lib/pgsql/9.4/data/postgresql.conf /var/lib/pgsql/9.4/data/postgresql.conf.orig

@@ -5,6 +5,14 @@ yum -y insetall epel-release
 yum -y update all
 yum -y install phpPgAdmin httpd
 
+# Configure Apache to listen from port 8008 instead of default port 80
+cp /etc/httpd/conf/httpd.conf /etc/httpd/conf/httpd.conf.orig
+sed -i "s/Listen 80/Listen 8008/g" /etc/httpd/conf/httpd.conf
+
+# Add port 8008 into firewall rules
+firewall-cmd --permanent --add-port=8008/tcp
+firewall-cmd --reload
+
 # Configure Apache - the file /etc/httpd/conf.d/phpPgAdmin
 cp /etc/httpd/conf.d/phpPgAdmin.conf /etc/httpd/conf.d/phpPgAdmin.conf.oirig
 sed -i "s/Require local/Require all granted/g" /etc/httpd/conf.d/phpPgAdmin.conf
