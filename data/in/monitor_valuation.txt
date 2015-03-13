@@ -1,0 +1,14 @@
+Monitor & Valuation
+
+View:   ZMON_VAL
+Client: 400
+
+                                                                      13.03.2015
+-----------
+|M|Name   |
+-----------
+|0|General|
+|N|No     |
+|Y|Yes    |
+-----------
+                                       1

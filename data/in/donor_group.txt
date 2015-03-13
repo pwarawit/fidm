@@ -1,0 +1,14 @@
+Donor Grouping
+
+View:   ZDONOR_GRP
+Client: 400
+
+                                                                      13.03.2015
+----------------------------
+|Donor Grou|Description    |
+----------------------------
+|PRJ       |Project Fund   |
+|RCF       |RECOFTC Fund   |
+|RTG       |Programme & RTG|
+----------------------------
+                                       1

@@ -1,0 +1,14 @@
+Gender & Rights
+
+View:   ZGENDER_RIGHTS
+Client: 400
+
+                                                                      13.03.2015
+-----------
+|G|Name   |
+-----------
+|0|General|
+|N|No     |
+|Y|Yes    |
+-----------
+                                       1

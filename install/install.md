@@ -75,3 +75,9 @@ This script must be executed as root. It will do the following:
 
 8. Configure Pentaho by changing several xml, properties files to allow postgres as BA repository -- using install_07.sh
 
+** Note on Mounting Windows Share 
+# yum install samba-client samba-common cifs-utils
+# mkdir /mnt/win
+edit /etc/fstab -- add this line:
+\\redwood.recoftc.org\fidm /mnt/win cifs user,uid=500,rw,suid,username=fidm,password=Samsung1987 0 0
+# mount /mnt/win
