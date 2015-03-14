@@ -1,0 +1,307 @@
+000       |Fixed Cost (Central Operating)                    
+001       |Staff Cost (Staff of RECOFTC)                     
+002       |Operating Cost (RECOFTC)                          
+003       |Capital Cost (RECOFTC)                            
+AA0       |ASEAN-Swiss Partnership on Social Forestry and CC 
+AA1       |CF Adaptation Roadmap to 2020                     
+AA2       |Conflict mediation analysis                       
+AA3       |Forest conflict portal                            
+AA4       |Advanced Mediation - Networking                   
+AA5       |Advanced Mediation Curriculum Development         
+AA6       |Landmark Publication                              
+AA7       |Study Tour Development                            
+AA8       |Institutional Learning                            
+AA9       |Conflict in REDD+ Study                           
+AB0       |Forinfo: Livelihood Improvement through Generation
+AB1       |Adaptation Training Materials -Testing &Developmen
+AB2       |Livelihoods and Markets -Training material develop
+AB3       |General CBTS Travel                               
+AB4       |Forest Stewardship Council (Train the Trainers Pro
+AB5       |RNE: Community Forestry Program Support in Myanmar
+AB6       |GRE: Grassroots Equity and Enhanced Networks in th
+AB7       |Training Course- Free, Prior and Informed Content 
+AB8       |Myanmar REDD+ Readiness Assessment (Royal Norwegia
+AB9       |Provision of a Training Course on Free, Prior, an
+AC0       |Water and Forest Land Titling in Lao PDR          
+AC1       |Livelihoods and Markets Analytical Research       
+AC2       |Strengthen Regional Networks                      
+AC3       |Feasibility Study for Preparation of Financial Coo
+AC4       |CF and Water Management                           
+AC5       |Forest Carbon, Markets and Communities (FCMC) fund
+AC6       |Grassroots Capacity Building for REDD+ in Asia (NO
+AC7       |Conducting Reinforcement Training on PFM and REDD-
+AC8       |FAD- Multi-country Study on Forest Restoration at 
+AC9       |EEP- Renewable Energy to the Energy & Environment 
+AD0       |GIZ: Integrating Climate Change Adaptation into De
+AD1       |Study tour for Myanmar's relevant stakeholders to 
+AD2       |Forest Connect / Networking                       
+AD3       |PFCC Development                                  
+AD4       |PFCC Events                                       
+AD5       |Tenure Reform (RECOFTC contribution)              
+AD6       |CBNA updates for 2013-18                          
+AD7       |CF demonstration site - regional coordination     
+AD8       |PFCC Networking                                   
+AD9       |Capac Build Prog to Strengthen CF & Agro-Forestry,
+AE0       |WRS- Regional consultation on Forests and Climate
+AE1       |Empowering Communities Through Training on Partici
+AE2       |ASE: ASEAN-Swiss Partnership on SF & CC (Phase II-
+AE3       |CCR: Conflict and Cooperation over REDD+ in Nepal,
+AE4       |RCF: A Training of facilitators workshop on streng
+AE5       |Representation at Indonesia Events                
+AE6       |Support to CF-related working groups in Indonesia 
+AE7       |ICP development                                   
+AE8       |Support to CCWG - VCP                             
+AE9       |VCP Development                                   
+AF0       |Multi-country Study on Forest Restoration at Lands
+AF1       |TCP Development                                   
+AF2       |Strengthening CF Networks and Collaboration - TCP 
+AF3       |CF and Climate Change - TCP                       
+AF4       |Representation at Cambodia Events                 
+AF5       |Support & Strengthen NCFPCC - CCP                 
+AF6       |Cambodia Country Program Development              
+AF7       |VCP communications strategy                       
+AF8       |CF Knowledge Management - TCP                     
+AF9       |Governance Training - VCP                         
+AG0       |Capacity Building for CF Stakeholders/Follow up CB
+AG1       |Support to CF-related groups in Vietnam           
+AG2       |Representation at Vietnam events                  
+AG3       |Strategic Plan Development                        
+AG4       |EO Events Participation                           
+AG5       |Fundraising and Donor Stewardship                 
+AG6       |BoT meetings (twice a year)                       
+AG7       |EC meetings                                       
+AG8       |Report dissemination to BoT/Donor                 
+AG9       |KU Scholarship Fund                               
+AH0       |Partner/Stakeholder Relationship Development      
+AH1       |Core Proposal Development                         
+AH2       |RECOFTC memberships                               
+AH3       |Institutional M&E                                 
+AH4       |Sentinel Sites                                    
+AH5       |Program Review                                    
+AH6       |Marketing                                         
+AH7       |Website (Development and Hosting)                 
+AH8       |Publications (Production)                         
+AH9       |Library                                           
+AI0       |CF Case Studies / Stories of Change               
+AI1       |Image Bank                                        
+AI2       |3rd Forum (plus field trip)                       
+AI3       |Media engagement                                  
+AI4       |Campaigns/Events                                  
+AI5       |Internal IT Systems                               
+AI6       |Staff Equipment                                   
+AI7       |IT Services: Country Program Support              
+AI8       |Intranet Implementation                           
+AI9       |Web surveys                                       
+AJ0       |E-News and Social Media                           
+AJ1       |Publications (Dissemination)                      
+AJ2       |Strategic Communications Travel                   
+AJ3       |Reflection Portfolio/Completion Report (2008-2013)
+AJ4       |Updated accounting software                       
+AJ5       |Year-end Fnancial Reports                         
+AJ6       |Audit fees and related                            
+AJ7       |Payroll outsourcing services                      
+AJ8       |Staff development and team building activities (HQ
+AJ9       |Repairs and office maintenance                    
+AK0       |Financial/accounting support for CPs              
+AK1       |MIS development                                   
+AK2       |Office events                                     
+AK3       |Recruitments                                      
+AK4       |Finance Committee Meetings                        
+AK5       |Legal advice fees                                 
+AK6       |HR support for CPs and policy development         
+AK7       |IT Maintenance                                    
+AK8       |Landscape Functions and People Course             
+AK9       |Grassroots Capacity Building for REDD+ in Asia (NO
+AL0       |Thematic Area Development                         
+AL1       |Annual Work Planning                              
+AL2       |Support to CF-related working groups in Lao PDR   
+AL3       |Representation at Lao PDR Events                  
+AL4       |Country Program Development/Support               
+AL5       |Indicators revision                               
+AL6       |PC Meetings                                       
+AL7       |Proposal Development                              
+AL8       |Support to NCFWGs                                 
+AL9       |Program Reporting                                 
+AM0       |LCP Development                                   
+AM1       |MFF: Community-based Learning Center at PredNai, T
+AM2       |Gender/Rights Mainstreaming                       
+AM3       |Thailand Burma Boarder Consortium (TBBC)          
+AM4       |SCC: Siam Commercial Bank Foundation (Jul'12-Jun'1
+AM5       |LEA - Lowering Emissions in Asia's Forests (LEAF) 
+AM6       |China Country Program Development                 
+AM7       |MGI: Mainstreaming Gender Issues in Forest Policie
+AM8       |Country Strategy Development                      
+AM9       |Myanmar Country Program Development               
+AN0       |CF demonstration sites in Indonesia               
+AN1       |CFET Curricula Development - ICP                  
+AN2       |VCP Capacity Building Strategy Development        
+AN3       |Vietnam Conflict Curricula Development            
+AN4       |Regional Facilitation Support to RRI Activities (R
+AN5       |RRO: Community Forestry Champions Network:Tackling
+AN6       |JICA- Strengthening CF Capacity in Asia / Apr'13-M
+AN7       |Supporting Community Forestry Networks and other C
+AN8       |Nepal Country Program Development                 
+AN9       |CF demonstration sites in Myanmar                 
+AO0       |CBNA update - ICP                                 
+AO1       |CF demonstration sites in Cambodia                
+AO2       |CF Enterprise and Market Development - TCP        
+AO3       |CF demonstration sites in Vietnam                 
+AO4       |Exposure Visits to Lao Community Resource Persons 
+AO5       |Information Network for Forests in Myanmar (INFORM
+AO6       |Representation at Myanmar Events                  
+AO7       |Support to CF-related working groups in Myanmar   
+AO8       |PROCO Representation Events                       
+AO9       |TBC - Strengthening Local Communitiesand Support O
+AP0       |FLG - FLEGT- Supporting CF Networks and other CSOs
+AP1       |COD: Thailand National Forum 19-21 Mar'14         
+AP2       |HIM: Community Forestry Women Leaders Capacity Dev
+AP3       |RRH: Study Tour to Cambodia on CF Development for 
+AP4       |SCF Development                                   
+AP5       |Grassroots CF Support                             
+AP6       |PPP                                               
+AP7       |CF Leadership Development                         
+AP8       |CF Champions Event 3: China                       
+AP9       |RRI Coordination                                  
+AQ1       |ADA: USAID Adapt Asia-Pacific                     
+AQ2       |Workshop on Participatory Action Research for Comm
+AQ3       |Support CFDF for CF Development                   
+AQ4       |Dissemination the Impacts of the Forest Governance
+AQ5       |DOH: Post-COP workshop (FAO)                      
+AQ6       |ProjectOver: Expenses write-off                   
+AQ7       |FSG: Train the trainers Project (FSC Accounting Co
+AQ8       |ASS: ASFN Secretariat                             
+AQ9       |SMRLE (EU Funded Project)                         
+AR0       |ASFCC Training Activity                           
+AR1       |B68/RCF: CDTS Open Subscription Courses           
+AR2       |New A15/PRF- TFC - Networking                     
+AR3       |New A16/PRF- TFC Curriculum Development           
+AR4       |New A21/PRF- Study Tour Development               
+AR5       |New A78/PRF- Conflict in REDD+ study              
+AR6       |New A86/PRF- PFCC capacity development            
+AR7       |New A91/PRF- ELM Curriculum Development           
+AR8       |New A93/PRF- CDTS Travel (General)                
+AR9       |New B30/PRF- Strengthen Regional Networks         
+AS0       |New B33/PRF- CF & Water Management                
+AS1       |New B46/PRF- Forest Connect / ELM networking      
+AS2       |New B47/PRF- PFCC Development: Research & Demonstr
+AS3       |New B48/PRF- PFCC Events                          
+AS4       |New B50/PRF- CDNA Framework Development           
+AS5       |New B51/PRF- Piloting & Demonstration             
+AS6       |New B52/PRF- PFCC Networking                      
+AS7       |New B59/PRF- SCF Development                      
+AS8       |New B60/PRF- Grassroots CF Support                
+AS9       |New B61/PRF- Private Sector Engagement            
+AT0       |New B62/PRF- CF Leadership Development            
+AT1       |New B63/PRF- CF Champions 3: China                
+AT2       |New B69/PRF- RBA Training Manual Development      
+AT3       |New B70/PRF- Certification Engagement             
+AT4       |New B71/PRF- Research, Analysis and Synthesis     
+AT5       |New B72/PRF- STAFA support                        
+AT6       |New M20/PRF- Landscapes Functions and People cours
+AT7       |New N30/PRF- Social Inclusion and Gender Equity   
+AT8       |New H01/PRF- Strategic/Program Plan development   
+AT9       |New H02/PRF- EO Events Participation              
+AU0       |New H03/PRF- Fundraising                          
+AU1       |New H07/PRF- BoT meetings                         
+AU2       |New H08/PRF- EC Meetings                          
+AU3       |New H10/PRF- Report dissemination to BoT/donors   
+AU4       |New H13/PRF- Partner/Stakeholder Relationship dev.
+AU5       |New H15/PRF- Core Proposal Development            
+AU6       |New H22/PRF- RECOFTC memberships                  
+AU7       |New H23/PRF- Institutional M&E                    
+AU8       |New H24/PRF- Sentinel Sites                       
+AU9       |New H28/PRF- External Program Evaluation          
+AV0       |New J21/PRF- Marketing                            
+AV1       |New J22/PRF- Website (Development and Hosting)    
+AV2       |New J23/PRF- Publications (Production)            
+AV3       |New J24/PRF- Library                              
+AV4       |New J27/PRF- Stories of Change                    
+AV5       |New J28/PRF- Image bank                           
+AV6       |New J32/PRF- Media engagement                     
+AV7       |New J33/PRF- Campaigns/Events                     
+AV8       |New J34/PRF- Internal IT Systems                  
+AV9       |New J35/PRF- Staff Equipment                      
+AW0       |New J36/PRF- Country Program Support              
+AW1       |New J37/PRF- Intranet Implementation              
+AW2       |New J38/PRF- Web surveys                          
+AW3       |New J40/PRF- E-News, Web Surveys, and Social Media
+AW4       |New J46/PRF- Publications (Dissemination)         
+AW5       |New J48/PRF- StratCom Travel                      
+AW6       |New J51/PRF- Comms for CF Research                
+AW7       |New K01/PRF- Update accounting software           
+AW8       |New K03/PRF- Year-end finance reports             
+AW9       |New K04/PRF- Audit fees and related               
+AX0       |New K05/PRF- Payroll outsourcing services         
+AX1       |New K09/PRF- Finance/accounting support for CPs   
+AX2       |New K16/PRF- CS Committee Meetings                
+AX3       |New K06/PRF- Staff development / teambuilding (HQ)
+AX4       |New K11/PRF- Office events                        
+AX5       |New K14/PRF- Recruitments                         
+AX6       |New K18/PRF- HR support for CPs and policy develop
+AX7       |New K10/PRF- MIS development                      
+AX8       |New K19/PRF- IT Development & Maintenance         
+AX9       |New K20/PRF- Institutional Learning               
+AY0       |New K21/PRF- Internship Program                   
+AY1       |New K22/PRF- HR System Development                
+AY2       |New N03/PRF- Annual Work Planning                 
+AY3       |New N08/PRF- Country Program Development/Support  
+AY4       |New N15/PRF- PC Meetings                          
+AY5       |New N20/PRF- Midyear Program Review               
+AY6       |New N21/PRF- Program Reporting                    
+AY7       |New N48/PRF- Country Strategy Development         
+AY8       |New N70/PRF- PROCO representation at events       
+AY9       |New N76/PRF- RRI coordination                     
+AZ0       |New F43/PRF- TCP Development                      
+AZ1       |New F48/RTG- Enhance CF networks and collaboration
+AZ2       |New F67/RTG- CF and Climate Change                
+AZ3       |New F90/RTG- Communication for Change             
+AZ4       |New F93/RTG- Capacity Building for Thai CF Stakeho
+AZ5       |New N64/PRF- Strengthening CF in ELM              
+AZ6       |New N79/RTG- Strengthening Young Seedling Networks
+AZ7       |New F82/PRF- CCP Development                      
+AZ8       |New N63/PRF- CF demonstration sites in Cambodia   
+AZ9       |New N77/PRF- Support CFDF for CF Development      
+BA0       |New F39/PRF- VCP Development                      
+BA1       |New F87/PRF- VCP communications strategy implement
+BA2       |New F95/PRF- CF Network Support                   
+BA3       |New N54/PRF- Development of CF-related training ma
+BA4       |New N65/PRF- Piloting and Demonstrating Best Pract
+BA5       |New N80/PRF- National CF Program review           
+BA6       |New N81/PRF- Analysis of CC-related issues        
+BA7       |New N82/PRF- Research, Analysis and Synthesis of C
+BA8       |New N83/PRF- VCP Training Program  (Trainers/Pract
+BA9       |New F05/PRF- ICP development                      
+BB0       |New N62/PRF- CBNA update                          
+BB1       |New B25/PRF- Piloting VF registration and titling 
+BB2       |New N26/PRF- LCP Development                      
+BB3       |New N84/PRF- VFI Rights LINK                      
+BB4       |New N49/PRF- MCP Development                      
+BB5       |New N85/PRF- Myanmar -SCF Project                 
+BB6       |New N86/PRF- Myanmar - ELM Project                
+BB7       |New N87/PRF- Myanmar - PFCC Project               
+BB8       |New N88/PRF- Myanmar - TFC Project                
+BB9       |New N60/PRF- Nepal Country Program Development    
+BC0       |New N74/PRF- Community Forestry Women Leaders Capa
+BC1       |New N89/PRF- CC-Sensitive OP                      
+BC2       |New N90/PRF- Action research on forest based finan
+BC3       |New H12/RCF- KU Relationship Strengthening        
+BC4       |New H26/RCF- Donor Stewardship                    
+BC5       |New H27/RCF- Nontraditional Fundraising           
+BC6       |New K17/RCF- Legal fees                           
+BC7       |New K07/RCF- Repairs and office maintenance       
+BC8       |New N16/RCF- Proposal Development                 
+BC9       |N79/RAF- RAFT Program (TNC) - MCP                 
+BD0       |SFM Project (UDNP-funded) - CCP                   
+BD1       |SFB Project (USAID-funded) - CCP                  
+BD2       |ENRTP Project (EU-funded) - CCP                   
+BD3       |CFET Curricula Development - ICP                  
+BD4       |PRF- FFF-MA&D Regional Training (Phase I)         
+BD5       |SUCOMFOR Project - MCP                            
+BD6       |Manage the Process of Site-Level Planning - VCP   
+BD7       |Empowerment of Local Networks for Ing - TCP       
+BD8       |CBFCM Project - TCP                               
+BD9       |New J31/PRF- Regional Forum for People and Forests
+BE0       |RCF- Training Enhancing livelihoods, 9-14 Mar'15
+BE1       |RCF-Study tour SFM & Livelihood Dev, 1-9 Mar'15 
+BE2       |Training on FC workshop on strengthening strategic
+BE3       |Forests and Climate Change after COP20 (Lima)     

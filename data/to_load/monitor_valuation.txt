@@ -1,0 +1,3 @@
+|0|General|
+|N|No     |
+|Y|Yes    |

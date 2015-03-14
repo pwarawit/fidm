@@ -1,0 +1,171 @@
+00001    |Apinita Siripatt                   
+00002    |Ann Jyothis Raj (Resign)           
+00003    |Anocha Chuenwanta                  
+00004    |Ahmad Dhiaulhaq (Resign)           
+00005    |Atcharaporn Daisai                 
+00006    |Alyssa Cheung                      
+00007    |Boonruen Mateang                   
+00008    |Bernhard Mohns                     
+00009    |Bhawana Upadhyay (Resign)          
+00010    |Benjaporn Mongkonsri               
+00011    |Bishnu Hari Paudyal                
+00012    |Bun Narin                          
+00013    |Natthika Changprasert              
+00014    |Chongon Tantavanich                
+00015    |Caroline Liou                      
+00016    |Chawpaka Chaosarn                  
+00017    |Chea Chan Neuv                     
+00018    |Chheng Channy                      
+00019    |Chy bobta                          
+00020    |David Gritten                      
+00022    |Emily Etue                         
+00023    |Etienne Delattre                   
+00024    |Edwin Payuan (Resign)              
+00025    |Elsa Dominish (Resign)             
+00026    |Panisara Panupitak                 
+00027    |Fabian Noeske                      
+00029    |Heng Da                            
+00030    |Hou Kalyan                         
+00031    |Im Maredi                          
+00032    |Im Sophanna                        
+00033    |Jaras Buakartok                    
+00034    |Pashakorn Supriyasilp              
+00035    |James Bampton                      
+00037    |Julian Atkinson                    
+00038    |Jephraim Oro                       
+00039    |Jaako Salakka (Resign)             
+00040    |Komkris Jarutrakulchai             
+00041    |Kasma Chatiyanont                  
+00043    |Kanchana Wiset                     
+00045    |Kanti Panjatanasak                 
+00046    |Komchai Thaiying                   
+00047    |Khamkeo Vongsavanh                 
+00048    |Kao Vutha                          
+00049    |Keat Pengkun                       
+00050    |Khin Moe Gyi                       
+00051    |Khorn Sophoeun                     
+00052    |Kirivuth Chhneang                  
+00053    |Koeu Lanet                         
+00054    |Kourk Thoeun                       
+00055    |Khankeo Outhasak                   
+00056    |Leela Wuttikraibundit              
+00057    |Lissa                              
+00058    |Luong Quang Hung                   
+00059    |Ly Kea                             
+00061    |Martin Greijmans                   
+00062    |Ma Seavchhe                        
+00063    |Mac Thi Thanh Tuyen                
+00064    |Maung Maung Than                   
+00065    |Men Vannak                         
+00066    |Maria Alberto (Maridel) (Resign)   
+00067    |Nguyen Quang Tan                   
+00068    |Zaw Win (Resign)                   
+00069    |Nguyen Thi Mai Phuong              
+00070    |Nguyen Thi Phuong Dung             
+00071    |Nicholas Wilder (Resign)           
+00072    |Ouch Laksmey                       
+00073    |Thanyarat Athichotthanyanon        
+00074    |Payung Tongkum                     
+00075    |Phenpichar Sakhamula               
+00076    |Prapai Srikram                     
+00077    |Pimpakarn Serithammarak            
+00078    |Pal Bunnarak                       
+00079    |Wirinya Chatwiriyamongkol          
+00080    |Pantharee Kuruchitkosol            
+00081    |Pratya Youngpatana                 
+00082    |Peak Monau                         
+00083    |Phinyada Atchatavivan              
+00084    |Phudis Phiphitkun (Resign)         
+00085    |Phung Thanh Xuan                   
+00087    |Ronnakorn Triraganon               
+00088    |Ramida Thanananthachat (Resign)    
+00089    |Regan Suzuki                       
+00090    |Ratkawee Boonmake                  
+00092    |Reymondo Caraan                    
+00093    |Ratchada Arpornsilp                
+00094    |Rawee Thaworn                      
+00095    |Rejani Kunjappan                   
+00096    |Saifon Bhumpakpan                  
+00097    |Sa-nguan Jongjit                   
+00100    |Supaporn Panwaree                  
+00102    |Somying Soontornwong (Resign)      
+00103    |Sorn Chansey                       
+00104    |Chandra Silori                     
+00105    |Stefan Bepler (Resign)             
+00109    |Shyam Paudel (Resign)              
+00110    |Sirichai Saengcharnchai            
+00111    |Sao Moeun                          
+00112    |Sarunyu Teantep                    
+00113    |Sat Sovanna                        
+00114    |Sim Kong (Resign)                  
+00115    |Simone Bianchi (Resign)            
+00116    |Somaya Bunchorntavakul             
+00117    |Sophie Lewis (Resign)              
+00118    |Su Pan Aung                        
+00119    |Subantita Suwan                    
+00120    |Suphannee Charatmanachot           
+00121    |Sureeporn Klaypan                  
+00124    |Thippawan Maidee                   
+00125    |Toon De Bruyn                      
+00126    |Tint Lwin Thaung                   
+00128    |Tomi Haryadi                       
+00129    |Tiamkare Thitithamtada             
+00131    |Veth Sonim                         
+00132    |Vin Bunna                          
+00133    |Vu Huu Than                        
+00134    |Vy Phalluy                         
+00135    |Vinai Im-aim                       
+00136    |Wacharee Kanyamasa                 
+00137    |Warangkana Rattanarat              
+00138    |Wilai Morsuwan                     
+00139    |Wisanlaya Boonsueb                 
+00141    |Yosef Arihadi                      
+00142    |Yuyun Yuningsih                    
+00143    |Yuki Nakamura (Resign)             
+00144    |Frederick Natividad                
+00145    |Paweenrat Phichitbovornsak (Resign)
+00146    |Suthisak Langthong (Resign)        
+00147    |Tann Senghoin                      
+00148    |Tep Chansothea (Resign)            
+00149    |Thach Metrey                       
+00150    |Thongsavath Boupha                 
+00151    |Thou Khoeur                        
+00152    |Tol Sokchea                        
+00153    |Ty Puthiera                        
+00154    |Thi Bui Linh                       
+00156    |Kemly Ouch                         
+00157    |Evan Gershkovich                   
+00158    |Aung Kyaw Naing                    
+00159    |Seth Kane                          
+00160    |Christian Rivera                   
+00161    |Hoev Kimsreng                      
+00162    |Mey Thearith                       
+00163    |Ma Sophal                          
+00164    |Kry Borey                          
+00165    |Hong Chhay                         
+00166    |Rin Naroeun                        
+00167    |Kinnalone Phommasack (Resign)      
+00168    |Tatcha Sutthidechsoontorn          
+00169    |Proeung Som On                     
+00170    |Rith Bo                            
+00171    |Keo Darith                         
+00172    |Long Hay (Resign)                  
+00173    |Phonexay Khammavong                
+00174    |Bounyadeth Phouangmala             
+00175    |Nuttasak Patcharasomboon           
+00176    |Punchayanut Srisuwattanasakul      
+00177    |Chhay Senkhammoungkhoun            
+00178    |Februanty Suyatiningsih            
+00179    |Sa Tin Min Aung                    
+00180    |Melanie Feurer                     
+00181    |Detty Saluling                     
+00182    |Han Swe Oo                         
+00183    |Kyaw Nyut                          
+00184    |Myint Zaw                          
+00185    |Than Swe                           
+00186    |Thien Saung                        
+00187    |Binod Chapagain                    
+00188    |Theingi Soe                        
+00189    |Lok Mani Sapkota                   
+00190    |Kuntum Melati                      
+99999    |Dummy Staff                        
