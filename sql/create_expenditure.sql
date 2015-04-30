@@ -231,7 +231,7 @@ select
 	,sum(a.mth_amount_gl) amount_gl_mth
 	,sum(a.ytd_amount_lc) amount_lc_ytd
 	,sum(a.ytd_amount_tc) amount_tc_ytd
-	,sum(a.ytd_amount_gl) amount_gl_mth
+	,sum(a.ytd_amount_gl) amount_gl_ytd
 from 
 	tmp_sum_exp a 
 		left outer join sap_csks b on (a.cost_center = b.cost_center)
