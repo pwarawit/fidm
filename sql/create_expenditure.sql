@@ -7,6 +7,7 @@
 DROP TABLE IF EXISTS tmp_mth_raw_exp;
 DROP TABLE IF EXISTS tmp_ytd_raw_exp;
 DROP TABLE IF EXISTS tmp_sum_exp;
+DROP TABLE IF EXISTS expenditure;
 
 -- This command create a table that contains the month EXP data 
 create table tmp_mth_raw_exp as
@@ -109,9 +110,9 @@ select
 	, sum(amount_local_currency) mth_amount_lc
 	, sum(amount_doc_currency) mth_amount_tc
 	, sum(gl_amount) mth_amount_gl
-	, 0 ytd_amount_lc
-	, 0 ytd_amount_tc
-	, 0 ytd_amount_gl
+	, 0.0 ytd_amount_lc
+	, 0.0 ytd_amount_tc
+	, 0.0 ytd_amount_gl
 from tmp_mth_raw_exp
 where fiscal_year = :v_fiscal_year
 group by 
@@ -161,9 +162,9 @@ select
 	, cf_leader      
 	, monitor_eval   
 	, staff_no       
-	, 0 mth_amount_lc
-	, 0 mth_amount_tc
-	, 0 mth_amount_gl
+	, 0.0 mth_amount_lc
+	, 0.0 mth_amount_tc
+	, 0.0 mth_amount_gl
 	, sum(amount_local_currency) ytd_amount_lc
 	, sum(amount_doc_currency) ytd_amount_tc
 	, sum(gl_amount) ytd_amount_gl
@@ -189,4 +190,93 @@ group by
 	, staff_no       
 order by posting_period
 );
+
+-- last step - creating table expenditure
+create table expenditure as 
+select
+	a.fiscal_year        
+	,a.posting_period     
+	,a.calendar_year      
+	,a.calendar_month     
+	,a.calendar_year_month
+	,a.local_currency     
+	,a.cost_center        
+	,coalesce(b.department,'Department:NULL') cost_center_name
+	,a.cost_element
+	,coalesce(c.name,'Cost Element:NULL') cost_element_name
+	,a.gl_account         
+	,coalesce(d.description, 'GL Account:NULL') gl_account_name
+	,a.order_number
+	,coalesce(e.description, 'Order Name:NULL') order_name
+	,a.functional_area
+	,coalesce(f.name, 'Funcation Area:NULL') functional_area_name
+	,a.donor
+	,coalesce(g.donor_name, 'Donor: NULL') donor_name
+	,a.activity_code      
+	,coalesce(h.activity_name, 'Activity: NULL') activity_name
+	,a.donor_line         
+	,coalesce(i.donor_line_name, 'Donor Line: NULL') donor_line_name
+	,a.benefit_country    
+	,coalesce(j.benefit_country_name, 'Benefit Country: NULL') benefit_country_name
+	,a.theme              
+	,coalesce(k.theme_name, 'Theme: NULL') theme_name
+	,a.outcome
+	,coalesce(l.outcome_name, 'Outcome: NULL') outcome_name
+	,a.gender_rights      
+	,a.cf_leader          
+	,a.monitor_eval       
+	,a.staff_no           
+	,sum(a.mth_amount_lc) amount_lc_mth
+	,sum(a.mth_amount_tc) amount_tc_mth
+	,sum(a.mth_amount_gl) amount_gl_mth
+	,sum(a.ytd_amount_lc) amount_lc_ytd
+	,sum(a.ytd_amount_tc) amount_tc_ytd
+	,sum(a.ytd_amount_gl) amount_gl_mth
+from 
+	tmp_sum_exp a 
+		left outer join sap_csks b on (a.cost_center = b.cost_center)
+		left outer join sap_csku c on (a.cost_element = c.cost_element)
+		left outer join sap_skat d on (a.gl_account = d.gl_account)
+		left outer join sap_aufk e on (a.order_number = e.order_number)
+		left outer join sap_functional_area f on (a.functional_area = f.code)
+		left outer join sap_zdonor g on (a.donor = g.donor)
+		left outer join sap_zactivity h on (a.activity_code = h.activity_code)
+		left outer join sap_zdonor_line i on (a.donor_line = i.donor_line)
+		left outer join sap_zbenefit_country j on (a.benefit_country = j.benefit_country)
+		left outer join sap_ztheme k on (a.theme = k.theme)
+		left outer join sap_zoutcome l on (a.outcome = l.outcome)
+group by 
+	 a.fiscal_year        
+	,a.posting_period     
+	,a.calendar_year      
+	,a.calendar_month     
+	,a.calendar_year_month
+	,a.local_currency     
+	,a.cost_center
+	,b.department
+	,a.cost_element
+	,c.name
+	,a.gl_account         
+	,d.description
+	,a.order_number
+	,e.description
+	,a.functional_area 
+	,f.name
+	,a.donor         
+	,g.donor_name
+	,a.activity_code      
+	,h.activity_name
+	,a.donor_line         
+	,i.donor_line_name
+	,a.benefit_country
+	,j.benefit_country_name    
+	,a.theme        
+	,k.theme_name
+	,a.outcome
+	,l.outcome_name
+	,a.gender_rights      
+	,a.cf_leader          
+	,a.monitor_eval       
+	,a.staff_no           
+;
 	
