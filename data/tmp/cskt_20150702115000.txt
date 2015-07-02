@@ -1,0 +1,26 @@
+	KOSTL	DATBI	KTEXT	LTEXT
+	1000	31.12.9999	Central (RECOFTC)	Central (RECOFTC)
+	1100	31.12.9999	CDTS - Department	CDTS Department
+	1200	31.12.9999	EO - Department	EO - Department
+	1300	31.12.9999	Strat Com-Department	Strat Com - Department
+	1400	31.12.9999	CS - Department	CS - Department
+	1410	31.12.9999	CS - Finance	CS - Financial & Accounting
+	1420	31.12.9999	CS - HR	CS - HR
+	1430	31.12.9999	CS - Admin	CS - Admin
+	1440	31.12.9999	CS - Dormitory	CS - Dormitory
+	1450	31.12.9999	CS - Facility	CS - Facility
+	1460	31.12.9999	CS - IT	CS - Information Technology
+	1470	31.12.9999	CS- AFSN Secretariat	CS- AFSN Secretariat
+	1500	31.12.9999	PROCO - Department	PROCO - Department
+	2000	31.12.9999	Thailand (TCP)	Thailand (TCP)
+	2001	31.12.9999	Cambodia (CCP)	Cambodia (CCP)
+	2002	31.12.9999	Vietnam (VCP)	Vietnam (VCP)
+	2003	31.12.9999	Indonesia (ICP)	Indonesia (ICP)
+	2004	31.12.9999	Lao (LCP)	Lao (LCP)
+	2005	31.12.9999	Myanmar (MCP)	Myanmar (MCP)
+	2006	31.12.9999	Nepal (NCP)	Nepal (NCP)
+	2007	31.12.9999	China (CHP)	China (CHP)
+	11P001	31.12.9999	CDTS - ASFN	CDTS - ASFN
+	11P002	31.12.9999	CDTS - GRE	CDTS - GRE
+	15P002	31.12.9999	PROCO - NOR	PROCO - NOR
+	15P003	31.12.9999	PROCO - FIF	PROCO - FIF

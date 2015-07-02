@@ -1,0 +1,4 @@
+	GEN_RIGHT	GEN_RIGHT_DESC
+	0	General
+	N	No
+	Y	Yes
