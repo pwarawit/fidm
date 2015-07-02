@@ -1,0 +1,8 @@
+02.07.2015                     Dynamic List Display                            1
+
+
+	MO_EVAL	MO_EVAL_DESC
+
+	0	General
+	N	No
+	Y	Yes

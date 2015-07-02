@@ -1,0 +1,154 @@
+02.07.2015                     Dynamic List Display                            1
+
+
+	DONOR	DONOR_NAME	DONOR_GRP
+
+	ADA	USAID Adapt Asia-Pacific	PRJ
+	ADB	Asian Development Bank	PRJ
+	AIT	AIT-UNEP	PRJ
+	ALL	Adaptive Learning and Linkages in CBNRM	PRJ
+	APC	Training on FC workshop on strengthening strategic	PRJ
+	APF	FAO of the UN (Asia-Pacific Forest)	PRJ
+	ASA	Aisia Foundation	PRJ
+	ASE	ASEAN-Swiss Partnership on SF & CC (Phase II- 2014	PRJ
+	ASF	ASFN: Social Forestry Newtork	PRJ
+	ASN	ASEAN: Swiss Partnership on Social Forestry and Cl	PRJ
+	ASS	ASFN Secretariat	PRJ
+	BBE	BBE	PRJ
+	BCI	GMS BCI Thailand Project Capacity Building	PRJ
+	BRT	BRT	PRJ
+	CCR	CCR	PRJ
+	CDK	CDKN	PRJ
+	CIF	Center for International Forestry Research [CIFOR]	PRJ
+	COD	Thailand National Forum 19-21 Mar'14	PRJ
+	DGI	Dutch Ministry of Foreign Affairs	PRJ
+	DND	DANIDA	PRJ
+	DOH	Forests and climate change in AP - Assessing COP	PRJ
+	DUR	Implications of Durban for Climate Change and Fore	PRJ
+	EEP	Renewable Energy to the Energy & Environment Partn	PRJ
+	EFI	European Forest Institute	PRJ
+	ENR	ENRTP Project (EU-funded)	PRJ
+	EPS	Ecosystem Services for Poverty Alleviation	PRJ
+	ESP	Ecosystem Services for Poverty Alleviation	PRJ
+	EUC	SMRLE (EU Funded Project)	PRJ
+	EUR	EUR/Forest Govern Learning	PRJ
+	EWC	East West Center	PRJ
+	FAA	FAO - LOA/RAP/2009/55	PRJ
+	FAB	FAO - LOA/RAP/2009/56	PRJ
+	FAC	FAO - PR43516	PRJ
+	FAD	FAO - LOA/RAP/2013/42	PRJ
+	FAO	The Evolution of Devolution	PRJ
+	FCH	Ford Foundation-China	PRJ
+	FCP	The Contested Commons:From Conflict to Peace,UK/14	PRJ
+	FCR	FPP Review of Rights in Commodity Roundtables in S	PRJ
+	FFC	Ford Foundation - China	PRJ
+	FFF	The Future of Forests and Forestry in South Asia [	PRJ
+	FID	Ford Foundation NY-Forest-Dependent Communities in	PRJ
+	FIF	Fordinfo (CBTS)	PRJ
+	FIS	Ford Foundation - Indonesia	PRJ
+	FLE	FLEGT- Supporting Community Forestry Networks and	PRJ
+	FLG	FLEGT- Supporting CF Networks and other CSOs (Phas	PRJ
+	FMC	Forest Carbon, Markets and Communities (FCMC) by T	PRJ
+	FPC	FPIC :- GTZ-REDD Programm Develop Guidebook	PRJ
+	FPI	FPIC: UN-REDD Programme Verification and Evaluatio	PRJ
+	FPL	Forest People Program: Legal Pluralism Meeting	PRJ
+	FPP	Forest People Program: Regional networking on palm	PRJ
+	FSC	Forest Stewardship Council	PRJ
+	FSG	Train the trainers Project	PRJ
+	FTI	FTI: Empowering Communities Through Training on Pa	PRJ
+	FVN	Ford Foundation - Vietnam: Support fundraising pro	PRJ
+	GES	IGES , Action Learning on Community Forest Carbon	PRJ
+	GFG	Ford Foundation Regional : GFG	PRJ
+	GIZ	Integrating Climate Change Adaptation into Develop	PRJ
+	GLG	Forest Governance Learning Group/iied	PRJ
+	GRE	Grassroots Equity and Enhanced Networks in the Mek	PRJ
+	GTZ	GTZ	PRJ
+	HIM	Community Forestry Women Leaders Capacity Developm	PRJ
+	IDC	IDRC/CBNRM	PRJ
+	IDR	IDRC	PRJ
+	IED	IIED Natural Resources Group	PRJ
+	IGS	IGES: Joint Research Agreement 25June2011	PRJ
+	INF	Information Network for Forests in Myanmar (w/ For	PRJ
+	ING	Empowerment of Local Networks for Ing - TCP	PRJ
+	ITT	The International Tropical Timber Organization	PRJ
+	JCA	JICA Forum Project	PRJ
+	JIA	JICA - RECOFTC Partnership Program - Strengthening	PRJ
+	JIB	JICA- Strengthening CF Capacity in Asia / Apr'13-M	PRJ
+	JIC	Strengthening Community Forestry Capacity in Asia	PRJ
+	KDP	The South Sulawesi Green KDP Project (CARE Indones	PRJ
+	KFW	KFW	PRJ
+	KNN	Kenan	PRJ
+	LEA	Lowering Emissions in Asia's Forests (LEAF) / Winr	PRJ
+	LIM	Forests and Climate Change after COP20 (Lima)	PRJ
+	LLS	Ford Foundation for LLS Workshops	PRJ
+	MFF	 Mangrove For Future Report to IUCN	PRJ
+	MFN	StrategicPlanning Process-Regional Model Forest Ne	PRJ
+	MGI	Mainstreaming Gender Issues in Forest Policies (FA	PRJ
+	MNR	FAO/Managing Natural Resource Training in Indonesi	PRJ
+	MRR	Myanmar REDD+ Readiness Assessment (Royal Norwegia	PRJ
+	NNP	Case study of Khao-Nan National Park, Nakhon Si Th	PRJ
+	NOG	Grassroots Capacity Building for REDD+ in Asia (NO	PRJ
+	NOR	Norwegian Agency for Development Cooperation(NORAD	PRJ
+	OTH	Others	PRJ
+	PCD	CBFCM Project - TCP	PRJ
+	PDR	FAO - Lao PDR	PRJ
+	PES	Ford Foundation, Mexico Grant#	PRJ
+	PRF	Program Funding	RTG
+	PTT	Petroleum Authority of Thailand	PRJ
+	RAF	RAFT Program (TNC) - MCP	PRJ
+	RAK	Rak Thai Foundation	PRJ
+	RCF	RECOFTC (unfunded)	RCF
+	RDN	REDDNet Programme	PRJ
+	RNE	Royal Norwegian Embassy (CF Program Support in Mya	PRJ
+	RRA	RRA	PRJ
+	RRB	RRI:-Rethinking Regulatory Barriers	PRJ
+	RRC	Community Forestry Champions Networking in Asia (R	PRJ
+	RRD	Dissemination of the Policy Brief on legal and reg	PRJ
+	RRE	Exposure Visits to Lao Community Resource Persons	PRJ
+	RRF	Regional Facilitation Support to RRI Activities in	PRJ
+	RRG	Rights and Resources Initiative Planning Meeting	PRJ
+	RRH	RRH	PRJ
+	RRI	Regional Facilitation Support to RRI Activities in	PRJ
+	RRL	RRI:-Lao PDR Forest Tenure Reform Learning Group	PRJ
+	RRM	Influence the Revision of Land and Forest Policies	PRJ
+	RRO	Community Forestry Champions Network: Tackling the	PRJ
+	RRP	Project of Assessing Impact of Forest Enterprises	PRJ
+	RRR	Forest Tenure Reform Learning Group in Laos PDR	PRJ
+	RRS	Regional Facilitation Support to RRI Activities in	PRJ
+	RRT	RRT- Thailand Country Program Partnership Implemen	PRJ
+	RRZ	RRI : Invitting a Resource Person from Brazil in V	PRJ
+	RTG	Royal Thai Government	RTG
+	SCB	Siam Commercial Bank Foundation	PRJ
+	SCC	Siam Commercial Bank Foundation (Jul'12-Jun'13)	PRJ
+	SDC	Swiss Agency for Dev & Cooper'	PRJ
+	SEA	SEANAFE	PRJ
+	SFB	SFB Project (USAID-funded)	PRJ
+	SFM	SFM Project (UDNP-funded)	PRJ
+	SID	Swedish International Development Agency	PRJ
+	SJF	IIED: Social Justice in Forestry	PRJ
+	SLP	Manage the Process of Site-Level Planning Awarenes	PRJ
+	SNE	Evalua'nOfForestryGover'nNepal	PRJ
+	SNG	SNV/Netherlands Development Organisation/Forest Go	PRJ
+	SNP	SDC:ForestGovernce&CF-DevNepal	PRJ
+	SNS	SDC & Sida (Program Funding)	PRJ
+	SNV	SNV-Netherlands Development Organisation	PRJ
+	SRA	Report on the implementation of the South East Asi	PRJ
+	SSA	SMALL-SCALE Agreement	PRJ
+	SSF	SDC/SIDA/Ford Indonesia	PRJ
+	SUC	SUCOMFOR Project (Scaling Up Community Forestry)	PRJ
+	SWI	SDC&RECOFTC Agreement Concerning Strengthening ASF	PRJ
+	TBB	Thailand Burma Boarder Consortium(TBBC)	PRJ
+	TBC	TBC - Strengthening Local Communitiesand Support O	PRJ
+	TFC	Tanzania Forest Conversation Group (TFCG) & Funded	PRJ
+	TNC	The Nature Conservancy	PRJ
+	TRF	The Thailand Research Fund	PRJ
+	TRG	Thailand Research Fund	PRJ
+	TYT	Toyota Foundation	PRJ
+	UNC	UNCCD PRAIS	PRJ
+	UND	United Nations Development Programme	PRJ
+	UNP	UNEP: UNREDD Capacity Building Service Provider St	PRJ
+	USA	USAID	PRJ
+	USD	USDA	PRJ
+	VER	EUR/VERIFOR	PRJ
+	WRS	Regional consultation on "Forests and Climate Chan	PRJ
+	WWF	World Wide Fund for Nature	PRJ
