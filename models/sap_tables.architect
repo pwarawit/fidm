@@ -1,0 +1,1563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<architect-project version="1.0" appversion="1.0.7">
+ <project-name>sap_tables</project-name>
+ <print-settings numCopies="1" zoom="1.0" pageNumbersPrinted="true" orientation="1" paperWidth="612.0" paperHeight="792.0" leftBorder="50.0" rightBorder="50.0" topBorder="50.0" bottomBorder="50.0" />
+ <project-data-sources>
+  <data-source id="DS0">
+   <property key="Logical" value="PlayPen Database" />
+  </data-source>
+  <data-source id="DS2">
+   <property key="Connection Type" value="PostgreSQL" />
+   <property key="Logical" value="PlayPen Database" />
+   <property key="JDBC URL" value="jdbc:postgresql://158.108.95.7:5432/fidm" />
+   <property key="UID" value="fidm" />
+   <property key="PWD" value="recoftc15fidm" />
+   <property key="ca.sqlpower.architect.etl.kettle.database" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.port" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.hostname" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.repos.login" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.repos.password" value="" />
+  </data-source>
+ </project-data-sources>
+ <source-databases>
+  <database id="DB0" populated="true" UUID="1e78e65d-900b-434f-be72-f36e28e694a2" dbcs-ref="DS2" name="PlayPen Database" physicalName="FIDM" >
+   <catalog id="CAT1" populated="true" UUID="7bf4832c-0afb-46ee-9ef5-c45d9e24c441" name="fidm" nativeTerm="database" physicalName="fidm" >
+    <schema id="SCH2" populated="false" UUID="b1ba90c2-5bf2-47a4-aa4e-400d80d65eba" name="information_schema" nativeTerm="schema" physicalName="information_schema" >
+    </schema>
+    <schema id="SCH3" populated="false" UUID="b8e9fd84-ba5c-46ee-8fee-d2d12bc80daf" name="pg_catalog" nativeTerm="schema" physicalName="pg_catalog" >
+    </schema>
+    <schema id="SCH4" populated="false" UUID="27932274-3c13-457d-b744-6d3199d2c2cd" name="pg_toast_temp_1" nativeTerm="schema" physicalName="pg_toast_temp_1" >
+    </schema>
+    <schema id="SCH5" populated="true" UUID="b28802fa-882c-4f9e-a446-724a1e74da94" name="public" nativeTerm="schema" physicalName="public" >
+     <table id="TAB6" populated="true" UUID="65ffd18c-e45c-40e2-8892-1844e099d153" name="sap_aufk" objectType="TABLE" physicalName="sap_aufk" >
+      <remarks></remarks>
+      <folder id="FOLTAB61" populated="true" name="Columns" physicalName="Columns" type="1">
+       <column id="COL7" populated="true" UUID="94510df6-3f04-47d4-a467-5fa9bb02c349" autoIncrement="false" defaultValue="" name="order_num" nullable="1" physicalName="order_num" precision="12" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL8" populated="true" UUID="6841d796-8fed-45dc-875c-7bc730a2e9d6" autoIncrement="false" defaultValue="" name="description" nullable="1" physicalName="description" precision="40" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL9" populated="true" UUID="fc9f6abf-70f4-4053-a692-002071fa1e7a" autoIncrement="false" defaultValue="" name="currency" nullable="1" physicalName="currency" precision="5" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL10" populated="true" UUID="1ea65f52-c5d1-4284-b422-e67b84ab57b3" autoIncrement="false" defaultValue="" name="donor" nullable="1" physicalName="donor" precision="5" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL11" populated="true" UUID="50855630-7966-4fef-ad12-b513d5ea5672" autoIncrement="false" defaultValue="" name="activity_code" nullable="1" physicalName="activity_code" precision="5" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL12" populated="true" UUID="dcaeec8c-484e-4543-9a8b-f92e086b289d" autoIncrement="false" defaultValue="" name="donor_line" nullable="1" physicalName="donor_line" precision="5" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL13" populated="true" UUID="e7f71d9d-342e-4069-92bb-28e94bf7b5f0" autoIncrement="false" defaultValue="" name="benefit_country" nullable="1" physicalName="benefit_country" precision="4" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL14" populated="true" UUID="1c9cb48a-881d-41f7-927c-47921bf4ed58" autoIncrement="false" defaultValue="" name="theme" nullable="1" physicalName="theme" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL15" populated="true" UUID="7639f23c-5799-4a22-b605-abb95b2d4e39" autoIncrement="false" defaultValue="" name="outcome" nullable="1" physicalName="outcome" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL16" populated="true" UUID="565d27f9-42fa-4b97-9ad4-ad9f3138f3bd" autoIncrement="false" defaultValue="" name="genderrights" nullable="1" physicalName="genderrights" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL17" populated="true" UUID="1f548ee5-4edb-403a-abdb-b7ca3582cac6" autoIncrement="false" defaultValue="" name="cf_leadership" nullable="1" physicalName="cf_leadership" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL18" populated="true" UUID="835e6039-242e-46f5-bc59-7357c7410fe1" autoIncrement="false" defaultValue="" name="monitorevaluat" nullable="1" physicalName="monitorevaluat" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       </folder>
+       <folder id="FOLTAB63" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+       </folder>
+       <folder id="FOLTAB62" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+       </folder>
+       <folder id="FOLTAB64" populated="true" name="Indices" physicalName="Indices" type="4">
+       <index id="IDX19" populated="true" UUID="1e63977b-8e9e-4d43-865a-158d6c5e1351" clustered="false" name="sap_aufk_pk" physicalName="sap_aufk_pk" primaryKeyIndex="true" unique="false" >
+       </index>
+      </folder>
+     </table>
+     <table id="TAB20" populated="true" UUID="28498234-ab18-4b5a-90d7-44f784e65916" name="sap_bkpf" objectType="TABLE" physicalName="sap_bkpf" >
+      <remarks></remarks>
+      <folder id="FOLTAB201" populated="true" name="Columns" physicalName="Columns" type="1">
+       <column id="COL21" populated="true" UUID="e5fb9a0a-264e-42b5-8a5a-ca8272a7e8b9" autoIncrement="false" defaultValue="" name="document_number" nullable="0" physicalName="document_number" precision="10" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL22" populated="true" UUID="3e061d00-579f-4411-8b98-1b3247060d19" autoIncrement="false" defaultValue="" name="fiscal_year" nullable="0" physicalName="fiscal_year" precision="10" referenceCount="1" scale="0" sourceDataTypeName="int4" type="4" >
+        <remarks></remarks>
+       </column>
+       <column id="COL23" populated="true" UUID="9c825e5d-c974-4815-a64d-fa0d906b6208" autoIncrement="false" defaultValue="" name="document_type" nullable="1" physicalName="document_type" precision="2" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL24" populated="true" UUID="2459db6f-009f-4412-b898-5f8dd54f5441" autoIncrement="false" defaultValue="" name="document_date" nullable="1" physicalName="document_date" precision="13" referenceCount="1" scale="0" sourceDataTypeName="date" type="91" >
+        <remarks></remarks>
+       </column>
+       <column id="COL25" populated="true" UUID="19ffeb51-5912-4d98-b16f-f6b0386fedf2" autoIncrement="false" defaultValue="" name="posting_date" nullable="1" physicalName="posting_date" precision="13" referenceCount="1" scale="0" sourceDataTypeName="date" type="91" >
+        <remarks></remarks>
+       </column>
+       <column id="COL26" populated="true" UUID="b38907ad-b069-4dcd-afe1-ca6692fb61ee" autoIncrement="false" defaultValue="" name="posting_period" nullable="1" physicalName="posting_period" precision="2" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL27" populated="true" UUID="1705581a-e676-4bba-9ca2-0b95840f127d" autoIncrement="false" defaultValue="" name="document_header_text" nullable="1" physicalName="document_header_text" precision="25" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL28" populated="true" UUID="37e3fa3c-acc6-4f30-9bb3-fbd977a2bbb3" autoIncrement="false" defaultValue="" name="currency" nullable="1" physicalName="currency" precision="3" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL29" populated="true" UUID="2be3c778-0753-4f60-bb22-f24e4d988c4f" autoIncrement="false" defaultValue="" name="exchange_rate" nullable="1" physicalName="exchange_rate" precision="131089" referenceCount="1" scale="0" sourceDataTypeName="numeric" type="2" >
+        <remarks></remarks>
+       </column>
+       <column id="COL30" populated="true" UUID="f139c787-0cb8-49fa-9f15-578422121888" autoIncrement="false" defaultValue="" name="docstatus" nullable="1" physicalName="docstatus" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL31" populated="true" UUID="dacf8790-2657-4f93-83f7-d4bd362dd66c" autoIncrement="false" defaultValue="" name="local_currency" nullable="1" physicalName="local_currency" precision="3" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL32" populated="true" UUID="2e4da096-89ec-49a6-9293-8b3461a5fec3" autoIncrement="false" defaultValue="" name="local_currency_2" nullable="1" physicalName="local_currency_2" precision="3" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL33" populated="true" UUID="f7c00239-9c20-4475-8906-323c82e67de1" autoIncrement="false" defaultValue="" name="local_currency_3" nullable="1" physicalName="local_currency_3" precision="3" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL34" populated="true" UUID="8e0e1187-3d45-4495-a897-3b509a311768" autoIncrement="false" defaultValue="" name="exchange_rate_2" nullable="1" physicalName="exchange_rate_2" precision="131089" referenceCount="1" scale="0" sourceDataTypeName="numeric" type="2" >
+        <remarks></remarks>
+       </column>
+       <column id="COL35" populated="true" UUID="87af2bc0-1273-4905-987b-a0493cca148e" autoIncrement="false" defaultValue="" name="exchange_rate_3" nullable="1" physicalName="exchange_rate_3" precision="131089" referenceCount="1" scale="0" sourceDataTypeName="numeric" type="2" >
+        <remarks></remarks>
+       </column>
+       </folder>
+       <folder id="FOLTAB203" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+       </folder>
+       <folder id="FOLTAB202" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+       </folder>
+       <folder id="FOLTAB204" populated="true" name="Indices" physicalName="Indices" type="4">
+       <index id="IDX36" populated="true" UUID="6b8c3ccd-de17-4674-9694-ce880a650a9a" clustered="false" name="sap_bkpf_pk" physicalName="sap_bkpf_pk" primaryKeyIndex="true" unique="false" >
+       </index>
+      </folder>
+     </table>
+     <table id="TAB37" populated="true" UUID="6be4378e-8556-48a2-ac67-2fb3b0828600" name="sap_bseg" objectType="TABLE" physicalName="sap_bseg" >
+      <remarks></remarks>
+      <folder id="FOLTAB371" populated="true" name="Columns" physicalName="Columns" type="1">
+       <column id="COL38" populated="true" UUID="f3b890d4-92d1-46fd-8ae2-b873d5e0b1be" autoIncrement="false" defaultValue="" name="document_number" nullable="1" physicalName="document_number" precision="10" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL39" populated="true" UUID="601f176a-6b02-43e9-8986-10efbca45e8f" autoIncrement="false" defaultValue="" name="fiscal_year" nullable="1" physicalName="fiscal_year" precision="4" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL40" populated="true" UUID="cff323de-0829-4fd7-8f82-851bc666adf8" autoIncrement="false" defaultValue="" name="line_item" nullable="1" physicalName="line_item" precision="3" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL41" populated="true" UUID="16e84094-8d6a-4b80-bcb3-93c0dcd6580e" autoIncrement="false" defaultValue="" name="posting_key" nullable="1" physicalName="posting_key" precision="2" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL42" populated="true" UUID="ab0e12fb-ce05-48f3-b528-9d541be507f7" autoIncrement="false" defaultValue="" name="account_type" nullable="1" physicalName="account_type" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL43" populated="true" UUID="f94bbf34-313c-4a25-a956-ef35468c7aa9" autoIncrement="false" defaultValue="" name="debitcredit_ind" nullable="1" physicalName="debitcredit_ind" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL44" populated="true" UUID="1e83e569-b01a-47e9-8116-b97a818d2bc6" autoIncrement="false" defaultValue="" name="amount_in_lc" nullable="1" physicalName="amount_in_lc" precision="13" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL45" populated="true" UUID="5d7eaa2b-ce51-47ec-b68e-13fa0bf01a28" autoIncrement="false" defaultValue="" name="amount" nullable="1" physicalName="amount" precision="13" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL46" populated="true" UUID="81923322-6e77-493d-99f3-2b2b535cefa9" autoIncrement="false" defaultValue="" name="general_ledger_amount" nullable="1" physicalName="general_ledger_amount" precision="13" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL47" populated="true" UUID="706fdfe8-8411-4c47-8b88-598e322e6a53" autoIncrement="false" defaultValue="" name="general_ledger_currency" nullable="1" physicalName="general_ledger_currency" precision="5" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL48" populated="true" UUID="f7f62cb1-1c90-4d61-920b-00bc96dfb934" autoIncrement="false" defaultValue="" name="text" nullable="1" physicalName="text" precision="50" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL49" populated="true" UUID="b04d1319-7a80-48eb-b975-538f197d1dfa" autoIncrement="false" defaultValue="" name="cost_center" nullable="1" physicalName="cost_center" precision="10" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL50" populated="true" UUID="b37705a4-9aa7-4dd8-9488-c6204ea95ced" autoIncrement="false" defaultValue="" name="order_num" nullable="1" physicalName="order_num" precision="12" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL51" populated="true" UUID="27984c2e-5b7e-4879-b876-43a7118ad5c4" autoIncrement="false" defaultValue="" name="gl_account" nullable="1" physicalName="gl_account" precision="10" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL52" populated="true" UUID="813e5475-a0ec-486b-aa94-4ffb6fc1e08d" autoIncrement="false" defaultValue="" name="balance_sheet_account" nullable="1" physicalName="balance_sheet_account" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL53" populated="true" UUID="4d6ca410-77ad-454f-a5bf-383ae2ab27e6" autoIncrement="false" defaultValue="" name="pl_statement_acct_type" nullable="1" physicalName="pl_statement_acct_type" precision="2" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL54" populated="true" UUID="be650adb-f5e8-407c-a22b-322e113abeff" autoIncrement="false" defaultValue="" name="functional_area" nullable="1" physicalName="functional_area" precision="16" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL55" populated="true" UUID="2efc3129-c378-4311-9003-9efd061ed6f5" autoIncrement="false" defaultValue="" name="cost_element" nullable="1" physicalName="cost_element" precision="10" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL56" populated="true" UUID="d15d3292-55a2-40cb-a186-568bc3f073d1" autoIncrement="false" defaultValue="" name="donor" nullable="1" physicalName="donor" precision="5" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL57" populated="true" UUID="6aa2fe92-f00e-4966-ac49-f35bd6ef85db" autoIncrement="false" defaultValue="" name="activity_code" nullable="1" physicalName="activity_code" precision="5" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL58" populated="true" UUID="e085ddfd-0901-42bf-9c2d-8bf066729db6" autoIncrement="false" defaultValue="" name="donor_line" nullable="1" physicalName="donor_line" precision="5" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL59" populated="true" UUID="66b4af07-742e-44ad-aa63-433dc851fb28" autoIncrement="false" defaultValue="" name="benefit_country" nullable="1" physicalName="benefit_country" precision="4" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL60" populated="true" UUID="189299a5-f5b2-414f-91e3-ac08d54579bb" autoIncrement="false" defaultValue="" name="theme" nullable="1" physicalName="theme" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL61" populated="true" UUID="af76e023-1a06-4dcb-ba92-0baccc72f450" autoIncrement="false" defaultValue="" name="outcome" nullable="1" physicalName="outcome" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL62" populated="true" UUID="c229289d-c91d-416d-87db-8fc2234c4b30" autoIncrement="false" defaultValue="" name="genderrights" nullable="1" physicalName="genderrights" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL63" populated="true" UUID="029e5f92-6437-4378-b1a9-fe363fe1cada" autoIncrement="false" defaultValue="" name="cf_leadership" nullable="1" physicalName="cf_leadership" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL64" populated="true" UUID="f7c0626e-340b-4b21-aae7-b11787a1a68f" autoIncrement="false" defaultValue="" name="monitorevaluat" nullable="1" physicalName="monitorevaluat" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL65" populated="true" UUID="699a6ff5-8b38-4a38-b233-b3a321947868" autoIncrement="false" defaultValue="" name="staff_no" nullable="1" physicalName="staff_no" precision="5" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       </folder>
+       <folder id="FOLTAB373" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+       </folder>
+       <folder id="FOLTAB372" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+       </folder>
+       <folder id="FOLTAB374" populated="true" name="Indices" physicalName="Indices" type="4">
+       <index id="IDX66" populated="true" UUID="a3bc1495-2528-4b09-87b4-89eee5204d9c" clustered="false" name="sap_bseg_pk" physicalName="sap_bseg_pk" primaryKeyIndex="true" unique="false" >
+       </index>
+      </folder>
+     </table>
+     <table id="TAB67" populated="true" UUID="96cce5e1-0fa3-45dc-a00f-90d197155967" name="sap_cobk" objectType="TABLE" physicalName="sap_cobk" >
+      <remarks></remarks>
+      <folder id="FOLTAB671" populated="true" name="Columns" physicalName="Columns" type="1">
+       <column id="COL68" populated="true" UUID="9ff330d5-1445-432f-98f2-5077995d6316" autoIncrement="false" defaultValue="" name="document_number" nullable="1" physicalName="document_number" precision="10" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL69" populated="true" UUID="8498c16f-6e58-4a1b-9f8e-c58560725e59" autoIncrement="false" defaultValue="" name="fiscal_year" nullable="1" physicalName="fiscal_year" precision="4" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL70" populated="true" UUID="58a14c41-fdba-4f00-9f58-6a01e024460e" autoIncrement="false" defaultValue="" name="from_period" nullable="1" physicalName="from_period" precision="3" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL71" populated="true" UUID="2746f6de-f318-4bd4-b0fa-7001878b659a" autoIncrement="false" defaultValue="" name="to_period" nullable="1" physicalName="to_period" precision="3" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL72" populated="true" UUID="1663c930-cd65-40c3-bd25-d75ed917797c" autoIncrement="false" defaultValue="" name="document_date" nullable="1" physicalName="document_date" precision="8" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL73" populated="true" UUID="2d3b58f7-2fce-47d3-b764-78918772efdb" autoIncrement="false" defaultValue="" name="posting_date" nullable="1" physicalName="posting_date" precision="8" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL74" populated="true" UUID="c22ddcbd-7aba-4c0b-aaca-c83ce589ebbf" autoIncrement="false" defaultValue="" name="document_header_text" nullable="1" physicalName="document_header_text" precision="50" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL75" populated="true" UUID="5fc030ca-95a5-449f-ac19-8811d95ea08b" autoIncrement="false" defaultValue="" name="ref_document_number" nullable="1" physicalName="ref_document_number" precision="10" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL76" populated="true" UUID="3cf04329-0912-4d30-adb8-8bbb7bbc55da" autoIncrement="false" defaultValue="" name="co_area_currency" nullable="1" physicalName="co_area_currency" precision="5" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       </folder>
+       <folder id="FOLTAB673" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+       </folder>
+       <folder id="FOLTAB672" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+       </folder>
+       <folder id="FOLTAB674" populated="true" name="Indices" physicalName="Indices" type="4">
+       <index id="IDX77" populated="true" UUID="ae84c1d8-f15a-41c4-837e-e8060edadfec" clustered="false" name="sap_cobk_pk" physicalName="sap_cobk_pk" primaryKeyIndex="true" unique="false" >
+       </index>
+      </folder>
+     </table>
+     <table id="TAB78" populated="true" UUID="005e500e-8797-464c-adaa-65cea44fcc6e" name="sap_coep" objectType="TABLE" physicalName="sap_coep" >
+      <remarks></remarks>
+      <folder id="FOLTAB781" populated="true" name="Columns" physicalName="Columns" type="1">
+       <column id="COL79" populated="true" UUID="cc284a11-d2cc-4c0c-92dd-3ed0437acc40" autoIncrement="false" defaultValue="" name="document_number" nullable="1" physicalName="document_number" precision="10" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL80" populated="true" UUID="eae6edcc-3800-442a-b261-a7a712f3e900" autoIncrement="false" defaultValue="" name="posting_row" nullable="1" physicalName="posting_row" precision="3" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL81" populated="true" UUID="f6257835-7d64-499d-9fce-53948a7953f4" autoIncrement="false" defaultValue="" name="period" nullable="1" physicalName="period" precision="3" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL82" populated="true" UUID="48169112-7044-4382-aa68-9660ca8406a8" autoIncrement="false" defaultValue="" name="value_trancurr" nullable="1" physicalName="value_trancurr" precision="15" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL83" populated="true" UUID="63f1b482-a657-4ae0-9082-3aae891e6917" autoIncrement="false" defaultValue="" name="value_in_obj_crcy" nullable="1" physicalName="value_in_obj_crcy" precision="15" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL84" populated="true" UUID="53c5fe1a-5a91-4082-899f-62fa1dc36752" autoIncrement="false" defaultValue="" name="valcoarea_crcy" nullable="1" physicalName="valcoarea_crcy" precision="15" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL85" populated="true" UUID="ee318310-7001-495b-aaae-46ae2ecc03ea" autoIncrement="false" defaultValue="" name="fiscal_year" nullable="1" physicalName="fiscal_year" precision="4" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL86" populated="true" UUID="bffcfb14-bbaf-4104-a198-8ab5cc892332" autoIncrement="false" defaultValue="" name="cost_element" nullable="1" physicalName="cost_element" precision="10" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL87" populated="true" UUID="28825a32-618a-42c8-a8b4-d24543c70de4" autoIncrement="false" defaultValue="" name="transaction_currency" nullable="1" physicalName="transaction_currency" precision="5" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL88" populated="true" UUID="27610a94-8e12-468c-acc2-0e6b826725f8" autoIncrement="false" defaultValue="" name="object_currency" nullable="1" physicalName="object_currency" precision="5" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL89" populated="true" UUID="6063be50-1caf-4017-beb5-0a737b9def34" autoIncrement="false" defaultValue="" name="name" nullable="1" physicalName="name" precision="50" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL90" populated="true" UUID="3bf4173c-6236-41ce-a52c-f2c9f5638ea3" autoIncrement="false" defaultValue="" name="posting_row2" nullable="1" physicalName="posting_row2" precision="3" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL91" populated="true" UUID="d284446f-4430-4ac8-b9b0-bedc7e62529d" autoIncrement="false" defaultValue="" name="document_item" nullable="1" physicalName="document_item" precision="3" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL92" populated="true" UUID="d9259546-2484-4e6c-b253-3d74d0b14e32" autoIncrement="false" defaultValue="" name="donor" nullable="1" physicalName="donor" precision="5" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL93" populated="true" UUID="5560528a-adaf-4e1a-9f2a-f873e8876be9" autoIncrement="false" defaultValue="" name="activity_code" nullable="1" physicalName="activity_code" precision="5" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL94" populated="true" UUID="12b1f2d5-f5d4-4f5b-ac86-76f1865fddc1" autoIncrement="false" defaultValue="" name="donor_line" nullable="1" physicalName="donor_line" precision="5" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL95" populated="true" UUID="9429d848-dd03-4008-acc5-8245b45e6515" autoIncrement="false" defaultValue="" name="benefit_country" nullable="1" physicalName="benefit_country" precision="4" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL96" populated="true" UUID="5e969d18-52f2-45f7-a1a3-5faf71da0937" autoIncrement="false" defaultValue="" name="theme" nullable="1" physicalName="theme" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL97" populated="true" UUID="797dadc0-2a38-4a3c-b32c-b91755cd6a5c" autoIncrement="false" defaultValue="" name="outcome" nullable="1" physicalName="outcome" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL98" populated="true" UUID="b17fc068-06c1-481a-b034-3e69c6394313" autoIncrement="false" defaultValue="" name="genderrights" nullable="1" physicalName="genderrights" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL99" populated="true" UUID="b20ab067-719b-46c9-aef6-6d6ad3996cd8" autoIncrement="false" defaultValue="" name="cf_leadership" nullable="1" physicalName="cf_leadership" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL100" populated="true" UUID="17a6066d-abd4-4606-af0a-12322e3ba6ce" autoIncrement="false" defaultValue="" name="monitorevaluat" nullable="1" physicalName="monitorevaluat" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL101" populated="true" UUID="7f0d56f6-81b5-4e7a-a21f-e89a5e6dc3de" autoIncrement="false" defaultValue="" name="staff_no" nullable="1" physicalName="staff_no" precision="5" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       </folder>
+       <folder id="FOLTAB783" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+       </folder>
+       <folder id="FOLTAB782" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+       </folder>
+       <folder id="FOLTAB784" populated="true" name="Indices" physicalName="Indices" type="4">
+       <index id="IDX102" populated="true" UUID="13235973-4da0-416b-a7f2-3acbdbb5c921" clustered="false" name="sap_coep_pk" physicalName="sap_coep_pk" primaryKeyIndex="true" unique="false" >
+       </index>
+      </folder>
+     </table>
+     <table id="TAB103" populated="true" UUID="da8cd16c-6ca1-4115-a87f-fd8e436377ce" name="sap_csks" objectType="TABLE" physicalName="sap_csks" >
+      <remarks></remarks>
+      <folder id="FOLTAB1031" populated="true" name="Columns" physicalName="Columns" type="1">
+       <column id="COL104" populated="true" UUID="1691d26b-c005-406f-8436-7a1e7e39d6c4" autoIncrement="false" defaultValue="" name="chart_of_accounts" nullable="1" physicalName="chart_of_accounts" precision="4" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL105" populated="true" UUID="9385a0e3-44d0-4282-bd3b-ccab32603ebf" autoIncrement="false" defaultValue="" name="cost_element" nullable="1" physicalName="cost_element" precision="10" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL106" populated="true" UUID="530e74d8-ff42-4386-bcab-7e8587d62365" autoIncrement="false" defaultValue="" name="cost_element2" nullable="1" physicalName="cost_element2" precision="10" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL107" populated="true" UUID="95ec5fff-bbeb-43df-9fff-bddb6a67e8aa" autoIncrement="false" defaultValue="" name="functional_area" nullable="1" physicalName="functional_area" precision="16" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL108" populated="true" UUID="e2077a01-6203-4cb6-a642-95eed65e1c05" autoIncrement="false" defaultValue="" name="cost_center" nullable="1" physicalName="cost_center" precision="10" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL109" populated="true" UUID="bb14a350-bdf8-41df-8791-fcf5ff151bb2" autoIncrement="false" defaultValue="" name="valid_to" nullable="1" physicalName="valid_to" precision="8" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL110" populated="true" UUID="ce0b0086-01f1-46f1-abc8-17b6c5339c42" autoIncrement="false" defaultValue="" name="valid_from" nullable="1" physicalName="valid_from" precision="8" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL111" populated="true" UUID="d8ea0919-1d16-4d61-8876-5d86ace43538" autoIncrement="false" defaultValue="" name="cost_center_category" nullable="1" physicalName="cost_center_category" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL112" populated="true" UUID="e8b15a53-aae7-48dc-bc12-df53014eb725" autoIncrement="false" defaultValue="" name="currency" nullable="1" physicalName="currency" precision="5" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL113" populated="true" UUID="311e11c0-47db-4d8e-83d8-2e6eadd213ed" autoIncrement="false" defaultValue="" name="department" nullable="1" physicalName="department" precision="12" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL114" populated="true" UUID="20eaf8e4-e927-424b-a174-f9972a07921c" autoIncrement="false" defaultValue="" name="title" nullable="1" physicalName="title" precision="15" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL115" populated="true" UUID="705b53f0-41ec-4c5c-8098-a798c7103717" autoIncrement="false" defaultValue="" name="name" nullable="1" physicalName="name" precision="35" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL116" populated="true" UUID="f37d0b92-ff36-4048-a28b-d8aefafc1bcd" autoIncrement="false" defaultValue="" name="name_2" nullable="1" physicalName="name_2" precision="35" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       </folder>
+       <folder id="FOLTAB1033" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+       </folder>
+       <folder id="FOLTAB1032" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+       </folder>
+       <folder id="FOLTAB1034" populated="true" name="Indices" physicalName="Indices" type="4">
+       <index id="IDX117" populated="true" UUID="4034a4d1-a1a1-4f84-bbf3-8a6528f07b15" clustered="false" name="sap_csks_pk" physicalName="sap_csks_pk" primaryKeyIndex="true" unique="false" >
+       </index>
+      </folder>
+     </table>
+     <table id="TAB118" populated="true" UUID="1771c53b-8d32-4a6c-ab90-6b7f087b6ca4" name="sap_cskt" objectType="TABLE" physicalName="sap_cskt" >
+      <remarks></remarks>
+      <folder id="FOLTAB1181" populated="true" name="Columns" physicalName="Columns" type="1">
+       <column id="COL119" populated="true" UUID="739929bb-419c-439b-b6b6-589b3a9aaffb" autoIncrement="false" defaultValue="" name="cost_center" nullable="1" physicalName="cost_center" precision="10" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL120" populated="true" UUID="219f37be-791c-43eb-8dd3-1a3df4c10374" autoIncrement="false" defaultValue="" name="valid_to" nullable="1" physicalName="valid_to" precision="8" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL121" populated="true" UUID="009b14f2-5667-479a-b656-df63583bb91c" autoIncrement="false" defaultValue="" name="name" nullable="1" physicalName="name" precision="20" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL122" populated="true" UUID="c4c0f43e-5046-4084-ad62-bb7264f8232d" autoIncrement="false" defaultValue="" name="description" nullable="1" physicalName="description" precision="40" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       </folder>
+       <folder id="FOLTAB1183" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+       </folder>
+       <folder id="FOLTAB1182" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+       </folder>
+       <folder id="FOLTAB1184" populated="true" name="Indices" physicalName="Indices" type="4">
+       <index id="IDX123" populated="true" UUID="159aaf05-c348-4401-8415-56b344405a9a" clustered="false" name="sap_cskt_pk" physicalName="sap_cskt_pk" primaryKeyIndex="true" unique="false" >
+       </index>
+      </folder>
+     </table>
+     <table id="TAB124" populated="true" UUID="98a1d983-2e32-42e4-bb3c-f35d93518f5a" name="sap_csku" objectType="TABLE" physicalName="sap_csku" >
+      <remarks></remarks>
+      <folder id="FOLTAB1241" populated="true" name="Columns" physicalName="Columns" type="1">
+       <column id="COL125" populated="true" UUID="e80b90dc-b6f2-443c-b038-1ea15285f604" autoIncrement="false" defaultValue="" name="chart_of_accounts" nullable="1" physicalName="chart_of_accounts" precision="4" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL126" populated="true" UUID="dd4febf2-c340-42d5-8a28-a52df497c650" autoIncrement="false" defaultValue="" name="cost_element" nullable="1" physicalName="cost_element" precision="10" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL127" populated="true" UUID="7fc6db5f-515c-4537-acd1-94ce008f5dd7" autoIncrement="false" defaultValue="" name="name" nullable="1" physicalName="name" precision="20" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL128" populated="true" UUID="7c39c4d3-9536-4466-8775-b4f321fa87a9" autoIncrement="false" defaultValue="" name="description" nullable="1" physicalName="description" precision="40" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       </folder>
+       <folder id="FOLTAB1243" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+       </folder>
+       <folder id="FOLTAB1242" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+       </folder>
+       <folder id="FOLTAB1244" populated="true" name="Indices" physicalName="Indices" type="4">
+       <index id="IDX129" populated="true" UUID="c3ce6579-d16b-4ef9-8cca-aa8206914280" clustered="false" name="sap_csku_pk" physicalName="sap_csku_pk" primaryKeyIndex="true" unique="false" >
+       </index>
+      </folder>
+     </table>
+     <table id="TAB130" populated="true" UUID="f836a5a5-2655-47fa-96bb-1149574a1ea0" name="sap_ska1" objectType="TABLE" physicalName="sap_ska1" >
+      <remarks></remarks>
+      <folder id="FOLTAB1301" populated="true" name="Columns" physicalName="Columns" type="1">
+       <column id="COL131" populated="true" UUID="4748265e-49c4-483e-9045-6dc1f3b02e53" autoIncrement="false" defaultValue="" name="chart_of_accounts" nullable="1" physicalName="chart_of_accounts" precision="4" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL132" populated="true" UUID="dce78a4f-6ce6-43a9-bc53-ea9a1a2b38c3" autoIncrement="false" defaultValue="" name="gl_account" nullable="1" physicalName="gl_account" precision="10" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL133" populated="true" UUID="b80c2c3c-a0d7-4bf6-bc0e-11bef7cb8048" autoIncrement="false" defaultValue="" name="balance_sheet_account" nullable="1" physicalName="balance_sheet_account" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL134" populated="true" UUID="18334b5e-3f0e-4edf-ba91-9374a87ec5b5" autoIncrement="false" defaultValue="" name="gl_account2" nullable="1" physicalName="gl_account2" precision="10" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL135" populated="true" UUID="685c1461-3081-4bae-945f-3a3ecc54dc28" autoIncrement="false" defaultValue="" name="group_account_number" nullable="1" physicalName="group_account_number" precision="10" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL136" populated="true" UUID="2a91e5f4-9f3b-48a0-93b3-25804e30c17c" autoIncrement="false" defaultValue="" name="pl_statement_acct_type" nullable="1" physicalName="pl_statement_acct_type" precision="2" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL137" populated="true" UUID="3f702ec5-70c4-4d8d-8de9-d4bf85190fc4" autoIncrement="false" defaultValue="" name="account_group" nullable="1" physicalName="account_group" precision="4" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       </folder>
+       <folder id="FOLTAB1303" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+       </folder>
+       <folder id="FOLTAB1302" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+       </folder>
+       <folder id="FOLTAB1304" populated="true" name="Indices" physicalName="Indices" type="4">
+       <index id="IDX138" populated="true" UUID="09f590b1-93e6-4141-b917-e60620652391" clustered="false" name="sap_ska1_pk" physicalName="sap_ska1_pk" primaryKeyIndex="true" unique="false" >
+       </index>
+      </folder>
+     </table>
+     <table id="TAB139" populated="true" UUID="be575839-e17a-4aba-9d14-71f1a8544666" name="sap_vbkpf" objectType="TABLE" physicalName="sap_vbkpf" >
+      <remarks></remarks>
+      <folder id="FOLTAB1391" populated="true" name="Columns" physicalName="Columns" type="1">
+       <column id="COL140" populated="true" UUID="8841963f-0d8d-45dc-b44d-9b8588bfcb78" autoIncrement="false" defaultValue="" name="document_number" nullable="1" physicalName="document_number" precision="10" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL141" populated="true" UUID="406bc971-5378-406f-b14a-68091f48f94f" autoIncrement="false" defaultValue="" name="fiscal_year" nullable="1" physicalName="fiscal_year" precision="4" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL142" populated="true" UUID="e7d66b3d-8dd3-4ef0-b3a5-84ad6d31c10c" autoIncrement="false" defaultValue="" name="docstatus" nullable="1" physicalName="docstatus" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL143" populated="true" UUID="c7389c33-90b1-437d-adac-4a0c43500b50" autoIncrement="false" defaultValue="" name="posting_period" nullable="1" physicalName="posting_period" precision="2" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL144" populated="true" UUID="2cc40e29-63ab-4eb9-8995-9d61cce403b8" autoIncrement="false" defaultValue="" name="user_name" nullable="1" physicalName="user_name" precision="12" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL145" populated="true" UUID="406b0d43-79c5-4f70-931e-c88ccfdbd61c" autoIncrement="false" defaultValue="" name="reference" nullable="1" physicalName="reference" precision="16" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL146" populated="true" UUID="28e82b43-6d22-4af5-b29c-8789df912989" autoIncrement="false" defaultValue="" name="document_header_text" nullable="1" physicalName="document_header_text" precision="25" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       </folder>
+       <folder id="FOLTAB1393" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+       </folder>
+       <folder id="FOLTAB1392" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+       </folder>
+       <folder id="FOLTAB1394" populated="true" name="Indices" physicalName="Indices" type="4">
+       <index id="IDX147" populated="true" UUID="be6add52-b08e-450c-934a-8a1891a7baba" clustered="false" name="sap_vbkpf_pk" physicalName="sap_vbkpf_pk" primaryKeyIndex="true" unique="false" >
+       </index>
+      </folder>
+     </table>
+     <table id="TAB148" populated="true" UUID="692d9cc9-9d7c-45ed-858b-91c7b35265d4" name="sap_zactivity" objectType="TABLE" physicalName="sap_zactivity" >
+      <remarks></remarks>
+      <folder id="FOLTAB1481" populated="true" name="Columns" physicalName="Columns" type="1">
+       <column id="COL149" populated="true" UUID="4c19d174-2d98-47f4-8da1-5b3a3eb27f41" autoIncrement="false" defaultValue="" name="activity_code" nullable="1" physicalName="activity_code" precision="5" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL150" populated="true" UUID="1b25e800-cd4b-418c-8cea-aa2e475606f2" autoIncrement="false" defaultValue="" name="name" nullable="1" physicalName="name" precision="50" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       </folder>
+       <folder id="FOLTAB1483" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+       </folder>
+       <folder id="FOLTAB1482" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+       </folder>
+       <folder id="FOLTAB1484" populated="true" name="Indices" physicalName="Indices" type="4">
+       <index id="IDX151" populated="true" UUID="a9fcfb58-7f07-4c01-b14e-20259bb4d4d9" clustered="false" name="sap_zactivity_pk" physicalName="sap_zactivity_pk" primaryKeyIndex="true" unique="false" >
+       </index>
+      </folder>
+     </table>
+     <table id="TAB152" populated="true" UUID="6e733297-fae1-4314-8fb8-412d3bfd3d23" name="sap_zbenefit_country" objectType="TABLE" physicalName="sap_zbenefit_country" >
+      <remarks></remarks>
+      <folder id="FOLTAB1521" populated="true" name="Columns" physicalName="Columns" type="1">
+       <column id="COL153" populated="true" UUID="b82073f8-6319-4764-b0ef-b075fa2db0ba" autoIncrement="false" defaultValue="" name="benefit_country" nullable="1" physicalName="benefit_country" precision="4" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL154" populated="true" UUID="684e9896-8042-4ac4-a60e-97a0fc72273b" autoIncrement="false" defaultValue="" name="name" nullable="1" physicalName="name" precision="50" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       </folder>
+       <folder id="FOLTAB1523" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+       </folder>
+       <folder id="FOLTAB1522" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+       </folder>
+       <folder id="FOLTAB1524" populated="true" name="Indices" physicalName="Indices" type="4">
+       <index id="IDX155" populated="true" UUID="347d2f9c-d4fe-414f-8ceb-96e1cae87043" clustered="false" name="sap_zbenefit_country_pk" physicalName="sap_zbenefit_country_pk" primaryKeyIndex="true" unique="false" >
+       </index>
+      </folder>
+     </table>
+     <table id="TAB156" populated="true" UUID="d5d95455-9d5b-44bf-98ff-bacd08fbfa73" name="sap_zcf_leader" objectType="TABLE" physicalName="sap_zcf_leader" >
+      <remarks></remarks>
+      <folder id="FOLTAB1561" populated="true" name="Columns" physicalName="Columns" type="1">
+       <column id="COL157" populated="true" UUID="36729300-af72-4062-b553-718219cc56ff" autoIncrement="false" defaultValue="" name="cf_leadership" nullable="1" physicalName="cf_leadership" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL158" populated="true" UUID="175378db-090e-44ce-a003-0fc5fa047989" autoIncrement="false" defaultValue="" name="name" nullable="1" physicalName="name" precision="50" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       </folder>
+       <folder id="FOLTAB1563" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+       </folder>
+       <folder id="FOLTAB1562" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+       </folder>
+       <folder id="FOLTAB1564" populated="true" name="Indices" physicalName="Indices" type="4">
+       <index id="IDX159" populated="true" UUID="88280ce2-26fc-4425-9432-511c096ba3b9" clustered="false" name="sap_zcf_leader_pk" physicalName="sap_zcf_leader_pk" primaryKeyIndex="true" unique="false" >
+       </index>
+      </folder>
+     </table>
+     <table id="TAB160" populated="true" UUID="cf428714-1f36-4e16-8eba-a2d101ae84e6" name="sap_zdonor" objectType="TABLE" physicalName="sap_zdonor" >
+      <remarks></remarks>
+      <folder id="FOLTAB1601" populated="true" name="Columns" physicalName="Columns" type="1">
+       <column id="COL161" populated="true" UUID="a5964665-2cc3-4e24-98d8-7c7e13765aa4" autoIncrement="false" defaultValue="" name="donor" nullable="1" physicalName="donor" precision="5" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL162" populated="true" UUID="8ec7e699-7a93-4848-93fa-e6f2ec4e4428" autoIncrement="false" defaultValue="" name="name" nullable="1" physicalName="name" precision="50" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL163" populated="true" UUID="f1b24fd4-ebea-4707-8334-4f77021d39a2" autoIncrement="false" defaultValue="" name="donor_grouping" nullable="1" physicalName="donor_grouping" precision="5" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       </folder>
+       <folder id="FOLTAB1603" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+       </folder>
+       <folder id="FOLTAB1602" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+       </folder>
+       <folder id="FOLTAB1604" populated="true" name="Indices" physicalName="Indices" type="4">
+       <index id="IDX164" populated="true" UUID="c320f736-9ff1-4d62-ab8a-945a545e2ade" clustered="false" name="sap_zdonor_pk" physicalName="sap_zdonor_pk" primaryKeyIndex="true" unique="false" >
+       </index>
+      </folder>
+     </table>
+     <table id="TAB165" populated="true" UUID="98ba58f9-d740-4458-9546-24a501fbde70" name="sap_zdonor_grp" objectType="TABLE" physicalName="sap_zdonor_grp" >
+      <remarks></remarks>
+      <folder id="FOLTAB1651" populated="true" name="Columns" physicalName="Columns" type="1">
+       <column id="COL166" populated="true" UUID="f9c53879-1483-4526-bcdd-fffc5bc9b5fd" autoIncrement="false" defaultValue="" name="donor_grouping" nullable="1" physicalName="donor_grouping" precision="5" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL167" populated="true" UUID="5f466668-53fb-42b1-8e82-2d1d734d9539" autoIncrement="false" defaultValue="" name="description" nullable="1" physicalName="description" precision="50" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       </folder>
+       <folder id="FOLTAB1653" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+       </folder>
+       <folder id="FOLTAB1652" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+       </folder>
+       <folder id="FOLTAB1654" populated="true" name="Indices" physicalName="Indices" type="4">
+       <index id="IDX168" populated="true" UUID="e21e2abb-6be6-4fe1-8870-b501f3183473" clustered="false" name="sap_zdonor_grp_pk" physicalName="sap_zdonor_grp_pk" primaryKeyIndex="true" unique="false" >
+       </index>
+      </folder>
+     </table>
+     <table id="TAB169" populated="true" UUID="e4604987-7bcb-4e4b-85e2-59f1cfe5778d" name="sap_zdonor_line" objectType="TABLE" physicalName="sap_zdonor_line" >
+      <remarks></remarks>
+      <folder id="FOLTAB1691" populated="true" name="Columns" physicalName="Columns" type="1">
+       <column id="COL170" populated="true" UUID="16cf85fb-3748-47ff-9477-90b25442c89f" autoIncrement="false" defaultValue="" name="donor_line" nullable="1" physicalName="donor_line" precision="5" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL171" populated="true" UUID="2a42a044-607c-48e2-af9a-3fb0b2a74a45" autoIncrement="false" defaultValue="" name="name" nullable="1" physicalName="name" precision="50" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       </folder>
+       <folder id="FOLTAB1693" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+       </folder>
+       <folder id="FOLTAB1692" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+       </folder>
+       <folder id="FOLTAB1694" populated="true" name="Indices" physicalName="Indices" type="4">
+       <index id="IDX172" populated="true" UUID="ac411543-b928-4305-8dac-5b92de0c7ca7" clustered="false" name="sap_zdonor_line_pk" physicalName="sap_zdonor_line_pk" primaryKeyIndex="true" unique="false" >
+       </index>
+      </folder>
+     </table>
+     <table id="TAB173" populated="true" UUID="4bbc1bc7-ee4f-4228-9e22-889086c97a06" name="sap_zgender_rights" objectType="TABLE" physicalName="sap_zgender_rights" >
+      <remarks></remarks>
+      <folder id="FOLTAB1731" populated="true" name="Columns" physicalName="Columns" type="1">
+       <column id="COL174" populated="true" UUID="6a221b73-819c-4be9-a744-d62191a4cf2c" autoIncrement="false" defaultValue="" name="genderrights" nullable="1" physicalName="genderrights" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL175" populated="true" UUID="19752e46-4bcd-4dc5-a1f5-11fb34c0e4e7" autoIncrement="false" defaultValue="" name="name" nullable="1" physicalName="name" precision="50" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       </folder>
+       <folder id="FOLTAB1733" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+       </folder>
+       <folder id="FOLTAB1732" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+       </folder>
+       <folder id="FOLTAB1734" populated="true" name="Indices" physicalName="Indices" type="4">
+       <index id="IDX176" populated="true" UUID="46e8d657-28b5-4c1f-900d-99c7f762294c" clustered="false" name="sap_zgender_rights_pk" physicalName="sap_zgender_rights_pk" primaryKeyIndex="true" unique="false" >
+       </index>
+      </folder>
+     </table>
+     <table id="TAB177" populated="true" UUID="0c302467-7278-44bb-8e27-bdecb375a7f1" name="sap_zmon_val" objectType="TABLE" physicalName="sap_zmon_val" >
+      <remarks></remarks>
+      <folder id="FOLTAB1771" populated="true" name="Columns" physicalName="Columns" type="1">
+       <column id="COL178" populated="true" UUID="cd7f8ea1-d514-4e6d-8a16-dde59f93929d" autoIncrement="false" defaultValue="" name="monitorevaluat" nullable="1" physicalName="monitorevaluat" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL179" populated="true" UUID="b5a372b4-36c4-422a-88cb-3a3961c900bf" autoIncrement="false" defaultValue="" name="name" nullable="1" physicalName="name" precision="50" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       </folder>
+       <folder id="FOLTAB1773" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+       </folder>
+       <folder id="FOLTAB1772" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+       </folder>
+       <folder id="FOLTAB1774" populated="true" name="Indices" physicalName="Indices" type="4">
+       <index id="IDX180" populated="true" UUID="0edad825-fd2a-4950-bc80-3731afae832c" clustered="false" name="sap_zmon_val_pk" physicalName="sap_zmon_val_pk" primaryKeyIndex="true" unique="false" >
+       </index>
+      </folder>
+     </table>
+     <table id="TAB181" populated="true" UUID="1bca7dbd-db9b-4b88-9ff0-79624c9da4ea" name="sap_zoutcome" objectType="TABLE" physicalName="sap_zoutcome" >
+      <remarks></remarks>
+      <folder id="FOLTAB1811" populated="true" name="Columns" physicalName="Columns" type="1">
+       <column id="COL182" populated="true" UUID="ef39f705-313c-42bb-bf6a-fcf842576156" autoIncrement="false" defaultValue="" name="outcome" nullable="1" physicalName="outcome" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL183" populated="true" UUID="a6f18c07-2b36-410a-abeb-c4a711967156" autoIncrement="false" defaultValue="" name="name" nullable="1" physicalName="name" precision="50" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       </folder>
+       <folder id="FOLTAB1813" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+       </folder>
+       <folder id="FOLTAB1812" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+       </folder>
+       <folder id="FOLTAB1814" populated="true" name="Indices" physicalName="Indices" type="4">
+       <index id="IDX184" populated="true" UUID="f526ce3a-e33a-48f9-a511-52e61da0977a" clustered="false" name="sap_zoutcome_pk" physicalName="sap_zoutcome_pk" primaryKeyIndex="true" unique="false" >
+       </index>
+      </folder>
+     </table>
+     <table id="TAB185" populated="true" UUID="b2d6eb72-31a7-46f0-a49c-34a0e3af90b7" name="sap_zstaff" objectType="TABLE" physicalName="sap_zstaff" >
+      <remarks></remarks>
+      <folder id="FOLTAB1851" populated="true" name="Columns" physicalName="Columns" type="1">
+       <column id="COL186" populated="true" UUID="9b2ebc8b-5991-4442-a6a3-1be1e4f2cba4" autoIncrement="false" defaultValue="" name="staff_no" nullable="1" physicalName="staff_no" precision="5" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL187" populated="true" UUID="d7489711-c828-4b19-bb5d-c534514d6b8f" autoIncrement="false" defaultValue="" name="message_text" nullable="1" physicalName="message_text" precision="70" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       </folder>
+       <folder id="FOLTAB1853" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+       </folder>
+       <folder id="FOLTAB1852" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+       </folder>
+       <folder id="FOLTAB1854" populated="true" name="Indices" physicalName="Indices" type="4">
+       <index id="IDX188" populated="true" UUID="51e1b385-ab1c-426a-b5c7-1578d89b8817" clustered="false" name="sap_zstaff_pk" physicalName="sap_zstaff_pk" primaryKeyIndex="true" unique="false" >
+       </index>
+      </folder>
+     </table>
+     <table id="TAB189" populated="true" UUID="3315b160-0cd3-4f8e-9ca6-298b04b9f9e6" name="sap_ztheme" objectType="TABLE" physicalName="sap_ztheme" >
+      <remarks></remarks>
+      <folder id="FOLTAB1891" populated="true" name="Columns" physicalName="Columns" type="1">
+       <column id="COL190" populated="true" UUID="2ab717a9-d3d0-4811-9c15-715d48c85a53" autoIncrement="false" defaultValue="" name="theme" nullable="1" physicalName="theme" precision="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       <column id="COL191" populated="true" UUID="0b03bb0e-65f0-4bcc-81f1-f5ceea945053" autoIncrement="false" defaultValue="" name="name" nullable="1" physicalName="name" precision="50" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" >
+        <remarks></remarks>
+       </column>
+       </folder>
+       <folder id="FOLTAB1893" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+       </folder>
+       <folder id="FOLTAB1892" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+       </folder>
+       <folder id="FOLTAB1894" populated="true" name="Indices" physicalName="Indices" type="4">
+       <index id="IDX192" populated="true" UUID="8431062c-1289-4933-997f-339cda02750a" clustered="false" name="sap_ztheme_pk" physicalName="sap_ztheme_pk" primaryKeyIndex="true" unique="false" >
+       </index>
+      </folder>
+     </table>
+    </schema>
+   </catalog>
+   <relationships>
+   </relationships>
+  </database>
+ </source-databases>
+ <target-database id="ppdb" dbcs-ref="DS0">
+  <table id="TAB194" populated="true" UUID="60e428c5-190b-49dc-9a4b-f626791db816" name="sap_ska1" objectType="TABLE" physicalName="sap_ska1" >
+   <remarks></remarks>
+   <folder id="FOLTAB1941" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL195" populated="true" UUID="405cfea7-92be-49d4-b152-19817e80abaa" autoIncrement="false" defaultValue="" name="chart_of_accounts" nullable="0" physicalName="chart_of_accounts" precision="4" referenceCount="1" scale="0" source-column-ref="COL131" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL196" populated="true" UUID="850d5994-8dce-41f1-b142-f17058445fc5" autoIncrement="false" defaultValue="" name="gl_account" nullable="0" physicalName="gl_account" precision="10" referenceCount="1" scale="0" source-column-ref="COL132" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL197" populated="true" UUID="9901c2c4-84bd-4016-ae4f-40eadac6f726" autoIncrement="false" defaultValue="" name="balance_sheet_account" nullable="1" physicalName="balance_sheet_account" precision="1" referenceCount="1" scale="0" source-column-ref="COL133" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL198" populated="true" UUID="125a47e0-21e1-41bd-ae98-baa45cf96aff" autoIncrement="false" autoIncrementSequenceName="sap_ska1_gl_account2_seq" defaultValue="" name="gl_account_2" nullable="1" physicalName="gl_account_2" precision="10" referenceCount="1" scale="0" source-column-ref="COL134" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL199" populated="true" UUID="a7b352d4-8d53-44fd-bc56-2ca94aef70b8" autoIncrement="false" defaultValue="" name="group_account_number" nullable="1" physicalName="group_account_number" precision="10" referenceCount="1" scale="0" source-column-ref="COL135" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL200" populated="true" UUID="ffce518b-cbc6-401f-87b6-81d8ae9af458" autoIncrement="false" autoIncrementSequenceName="sap_ska1_pl_statement_acct_type_seq" defaultValue="" name="pl_statement_account_type" nullable="1" physicalName="pl_statement_account_type" precision="2" referenceCount="1" scale="0" source-column-ref="COL136" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL201" populated="true" UUID="55882ca4-0b9d-4822-bbe7-2bf1ecd983df" autoIncrement="false" defaultValue="" name="account_group" nullable="1" physicalName="account_group" precision="4" referenceCount="1" scale="0" source-column-ref="COL137" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB1943" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB1942" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB1944" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX202" populated="true" UUID="d6848bd2-a034-4296-a802-591a2f2b3190" clustered="false" name="sap_ska1_pk" physicalName="sap_ska1_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB203" populated="true" UUID="208c2ea2-cd08-42e4-b765-2ad23517931a" name="sap_zgender_rights" objectType="TABLE" physicalName="sap_zgender_rights" >
+   <remarks></remarks>
+   <folder id="FOLTAB2031" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL204" populated="true" UUID="7599cc49-31ee-41df-b784-9cee456f31c0" autoIncrement="false" defaultValue="" name="genderrights" nullable="1" physicalName="genderrights" precision="1" referenceCount="1" scale="0" source-column-ref="COL174" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL205" populated="true" UUID="bd37bd91-81a3-4ff2-aab9-c91b4efc9f83" autoIncrement="false" autoIncrementSequenceName="sap_zgender_rights_name_seq" defaultValue="" name="genderrights_name" nullable="1" physicalName="genderrights_name" precision="50" referenceCount="1" scale="0" source-column-ref="COL175" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB2033" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB2032" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB2034" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX206" populated="true" UUID="75cc792b-9fcc-4ae8-8fc8-62559bae3247" clustered="false" name="sap_zgender_rights_pk" physicalName="sap_zgender_rights_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB207" populated="true" UUID="d62f8599-c78f-478a-9987-433f164024aa" name="sap_zdonor" objectType="TABLE" physicalName="sap_zdonor" >
+   <remarks></remarks>
+   <folder id="FOLTAB2071" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL208" populated="true" UUID="3e331ef8-719b-49ab-ba44-ba569ba3104c" autoIncrement="false" defaultValue="" name="donor" nullable="1" physicalName="donor" precision="5" referenceCount="1" scale="0" source-column-ref="COL161" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL209" populated="true" UUID="f003cf31-0b4b-4e45-9cef-841c7488a8d3" autoIncrement="false" defaultValue="" name="donor_name" nullable="1" physicalName="donor_name" precision="50" referenceCount="1" scale="0" source-column-ref="COL162" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL210" populated="true" UUID="7ae61137-cfba-42f5-8b4b-6f469d3c9857" autoIncrement="false" defaultValue="" name="donor_grouping" nullable="1" physicalName="donor_grouping" precision="5" referenceCount="1" scale="0" source-column-ref="COL163" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB2073" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB2072" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB2074" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX211" populated="true" UUID="b414407f-bcb3-42e5-a7da-0a2c761cdda6" clustered="false" name="sap_zdonor_pk" physicalName="sap_zdonor_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB212" populated="true" UUID="4d628f8e-879b-4120-97eb-e4c8ea4c62bf" name="sap_zcf_leader" objectType="TABLE" physicalName="sap_zcf_leader" >
+   <remarks></remarks>
+   <folder id="FOLTAB2121" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL213" populated="true" UUID="d83ee325-65fa-4d97-b980-090c8529fbe8" autoIncrement="false" defaultValue="" name="cf_leadership" nullable="1" physicalName="cf_leadership" precision="1" referenceCount="1" scale="0" source-column-ref="COL157" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL214" populated="true" UUID="bfa4c23c-b3c7-450f-8173-0851e01754de" autoIncrement="false" autoIncrementSequenceName="sap_zcf_leader_name_seq" defaultValue="" name="cf_leadership_name" nullable="1" physicalName="cf_leadership_name" precision="50" referenceCount="1" scale="0" source-column-ref="COL158" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB2123" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB2122" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB2124" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX215" populated="true" UUID="0bf73278-2ec2-45af-97f7-74d9732d4483" clustered="false" name="sap_zcf_leader_pk" physicalName="sap_zcf_leader_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB216" populated="true" UUID="e3702087-3dc4-48bc-8083-8581fea435ca" name="sap_cobk" objectType="TABLE" physicalName="sap_cobk" >
+   <remarks></remarks>
+   <folder id="FOLTAB2161" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL217" populated="true" UUID="6ab2a824-3f42-4e1a-8f84-447f222f98ec" autoIncrement="false" defaultValue="" name="document_number" nullable="1" physicalName="document_number" precision="10" referenceCount="1" scale="0" source-column-ref="COL68" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL218" populated="true" UUID="ffdce412-0115-427f-95d0-bbf266ffb139" autoIncrement="false" defaultValue="" name="fiscal_year" nullable="1" physicalName="fiscal_year" precision="0" referenceCount="1" scale="0" source-column-ref="COL69" sourceDataTypeName="varchar" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL219" populated="true" UUID="b1f24c83-1fac-4d94-a305-3a123392fbd9" autoIncrement="false" defaultValue="" name="from_period" nullable="1" physicalName="from_period" precision="0" referenceCount="1" scale="0" source-column-ref="COL70" sourceDataTypeName="varchar" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL220" populated="true" UUID="451f35a8-43a9-47e5-acbd-6bc0eea43886" autoIncrement="false" defaultValue="" name="to_period" nullable="1" physicalName="to_period" precision="0" referenceCount="1" scale="0" source-column-ref="COL71" sourceDataTypeName="varchar" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL221" populated="true" UUID="3cff002d-dff7-4d2d-997f-e18923631532" autoIncrement="false" defaultValue="" name="document_date" nullable="1" physicalName="document_date" precision="0" referenceCount="1" scale="0" source-column-ref="COL72" sourceDataTypeName="varchar" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    <column id="COL222" populated="true" UUID="a9572852-b737-4d56-a30b-f3e41f9668e2" autoIncrement="false" defaultValue="" name="posting_date" nullable="1" physicalName="posting_date" precision="0" referenceCount="1" scale="0" source-column-ref="COL73" sourceDataTypeName="varchar" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    <column id="COL223" populated="true" UUID="5fe438b1-3f51-4669-a1cc-7796cc3fac84" autoIncrement="false" defaultValue="" name="document_header_text" nullable="1" physicalName="document_header_text" precision="50" referenceCount="1" scale="0" source-column-ref="COL74" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL224" populated="true" UUID="0186b0da-6cab-4c63-a729-1841ea4c8a36" autoIncrement="false" defaultValue="" name="ref_document_number" nullable="1" physicalName="ref_document_number" precision="10" referenceCount="1" scale="0" source-column-ref="COL75" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL225" populated="true" UUID="80966cf9-2989-4f00-a1a1-c8580398a324" autoIncrement="false" defaultValue="" name="co_area_currency" nullable="1" physicalName="co_area_currency" precision="5" referenceCount="1" scale="0" source-column-ref="COL76" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB2163" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB2162" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB2164" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX226" populated="true" UUID="10d9f129-841a-4ade-a503-b5fa5d89d01f" clustered="false" name="sap_cobk" physicalName="sap_cobk_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB227" populated="true" UUID="59ef0c01-f314-4a38-8696-724c47f55ae8" name="sap_vbkpf" objectType="TABLE" physicalName="sap_vbkpf" >
+   <remarks></remarks>
+   <folder id="FOLTAB2271" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL228" populated="true" UUID="7ddac67f-b61b-4b74-a18e-0e71cd1fe634" autoIncrement="false" defaultValue="" name="document_number" nullable="0" physicalName="document_number" precision="10" referenceCount="1" scale="0" source-column-ref="COL140" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL229" populated="true" UUID="65d12549-0d41-474f-a0d9-15472d8bd773" autoIncrement="false" defaultValue="" name="fiscal_year" nullable="0" physicalName="fiscal_year" precision="0" referenceCount="1" scale="0" source-column-ref="COL141" sourceDataTypeName="varchar" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL230" populated="true" UUID="718ab5d5-0259-42e4-be52-17c6da7e4ec0" autoIncrement="false" autoIncrementSequenceName="sap_vbkpf_docstatus_seq" defaultValue="" name="document_status" nullable="1" physicalName="document_status" precision="1" referenceCount="1" scale="0" source-column-ref="COL142" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL231" populated="true" UUID="23a86609-405c-41e0-8e8a-acac6d8280be" autoIncrement="false" defaultValue="" name="posting_period" nullable="1" physicalName="posting_period" precision="0" referenceCount="1" scale="0" source-column-ref="COL143" sourceDataTypeName="varchar" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL232" populated="true" UUID="f8472cf1-0335-4075-98df-1b89ae770f26" autoIncrement="false" defaultValue="" name="user_name" nullable="1" physicalName="user_name" precision="12" referenceCount="1" scale="0" source-column-ref="COL144" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL233" populated="true" UUID="15a77f8b-4558-42a0-a68d-6168c6532845" autoIncrement="false" defaultValue="" name="reference" nullable="1" physicalName="reference" precision="16" referenceCount="1" scale="0" source-column-ref="COL145" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL234" populated="true" UUID="4b489b4f-88a7-469e-aba5-1ecd827e6493" autoIncrement="false" defaultValue="" name="document_header_text" nullable="1" physicalName="document_header_text" precision="25" referenceCount="1" scale="0" source-column-ref="COL146" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB2273" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB2272" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB2274" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX235" populated="true" UUID="aad442fc-57a6-49b7-b066-cc1eec227a9f" clustered="false" name="sap_vbkpf_pk" physicalName="sap_vbkpf_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB236" populated="true" UUID="0ff42471-bf86-408b-8896-0b790ed29311" name="sap_zoutcome" objectType="TABLE" physicalName="sap_zoutcome" >
+   <remarks></remarks>
+   <folder id="FOLTAB2361" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL237" populated="true" UUID="54b9f872-b021-470c-9a68-de249253f721" autoIncrement="false" defaultValue="" name="outcome" nullable="1" physicalName="outcome" precision="1" referenceCount="1" scale="0" source-column-ref="COL182" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL238" populated="true" UUID="929cee00-1b20-4000-a264-272c4702d048" autoIncrement="false" autoIncrementSequenceName="sap_zoutcome_name_seq" defaultValue="" name="outcome_name" nullable="1" physicalName="outcome_name" precision="50" referenceCount="1" scale="0" source-column-ref="COL183" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB2363" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB2362" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB2364" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX239" populated="true" UUID="1e90cccb-c7eb-4d52-899f-98437ed92246" clustered="false" name="sap_zoutcome_pk" physicalName="sap_zoutcome_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB240" populated="true" UUID="09ac4bcf-d81e-4237-b6bb-2e549ee061a9" name="sap_bkpf" objectType="TABLE" physicalName="sap_bkpf" >
+   <remarks></remarks>
+   <folder id="FOLTAB2401" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL241" populated="true" UUID="c4496598-cadf-4d1e-94de-a7de8a466c0b" autoIncrement="false" defaultValue="" name="document_number" nullable="0" physicalName="document_number" precision="10" referenceCount="1" scale="0" source-column-ref="COL21" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL242" populated="true" UUID="fb6d0bee-9c57-4607-acc9-b61a58052f7b" autoIncrement="false" defaultValue="" name="fiscal_year" nullable="0" physicalName="fiscal_year" precision="0" referenceCount="1" scale="0" source-column-ref="COL22" sourceDataTypeName="varchar" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL243" populated="true" UUID="9f44e618-d5c6-4c10-a151-50f57e68ef16" autoIncrement="false" defaultValue="" name="document_type" nullable="1" physicalName="document_type" precision="2" referenceCount="1" scale="0" source-column-ref="COL23" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL244" populated="true" UUID="10cc4d16-ed29-4d27-b4d7-f9342c838060" autoIncrement="false" defaultValue="" name="document_date" nullable="1" physicalName="document_date" precision="0" referenceCount="1" scale="0" source-column-ref="COL24" sourceDataTypeName="varchar" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    <column id="COL245" populated="true" UUID="4527b04f-d947-4ad5-9de9-dc2fb019626a" autoIncrement="false" defaultValue="" name="posting_date" nullable="1" physicalName="posting_date" precision="0" referenceCount="1" scale="0" source-column-ref="COL25" sourceDataTypeName="varchar" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    <column id="COL246" populated="true" UUID="6effe8d2-e10d-4fe5-8429-07bbd17d2f76" autoIncrement="false" defaultValue="" name="posting_period" nullable="1" physicalName="posting_period" precision="0" referenceCount="1" scale="0" source-column-ref="COL26" sourceDataTypeName="varchar" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL247" populated="true" UUID="b28838b0-f90d-4b01-8659-e41bf8b1d7af" autoIncrement="false" defaultValue="" name="document_header_text" nullable="1" physicalName="document_header_text" precision="25" referenceCount="1" scale="0" source-column-ref="COL27" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL248" populated="true" UUID="838686a5-4195-4235-811a-2182594ed6e7" autoIncrement="false" defaultValue="" name="currency" nullable="1" physicalName="currency" precision="3" referenceCount="1" scale="0" source-column-ref="COL28" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL249" populated="true" UUID="29cb47ec-5eff-4c59-b95d-c5899fd38afd" autoIncrement="false" defaultValue="" name="exchange_rate" nullable="1" physicalName="exchange_rate" precision="0" referenceCount="1" scale="0" source-column-ref="COL29" sourceDataTypeName="varchar" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL250" populated="true" UUID="883fec31-5be7-47c0-8a38-1b6839bd74ef" autoIncrement="false" autoIncrementSequenceName="sap_bkpf_docstatus_seq" defaultValue="" name="document_status" nullable="1" physicalName="document_status" precision="1" referenceCount="1" scale="0" source-column-ref="COL30" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL251" populated="true" UUID="6f5a1e52-bcdc-4fd8-9a1d-c0aeb7e8dcea" autoIncrement="false" defaultValue="" name="local_currency" nullable="1" physicalName="local_currency" precision="3" referenceCount="1" scale="0" source-column-ref="COL31" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL252" populated="true" UUID="3b2d0a2b-06b1-4b4b-8823-35f73e6b50ed" autoIncrement="false" defaultValue="" name="local_currency_2" nullable="1" physicalName="local_currency_2" precision="3" referenceCount="1" scale="0" source-column-ref="COL32" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL253" populated="true" UUID="336f3078-4adb-44c0-a2a9-eb1e0a29b9e9" autoIncrement="false" defaultValue="" name="local_currency_3" nullable="1" physicalName="local_currency_3" precision="3" referenceCount="1" scale="0" source-column-ref="COL33" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL254" populated="true" UUID="b80c15f8-30ac-4ee5-b5b5-ca0dcc5e7c46" autoIncrement="false" defaultValue="" name="exchange_rate_2" nullable="1" physicalName="exchange_rate_2" precision="0" referenceCount="1" scale="0" source-column-ref="COL34" sourceDataTypeName="varchar" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL255" populated="true" UUID="366025c3-3ba4-43e6-b6ea-7fd4dd542a3b" autoIncrement="false" defaultValue="" name="exchange_rate_3" nullable="1" physicalName="exchange_rate_3" precision="0" referenceCount="1" scale="0" source-column-ref="COL35" sourceDataTypeName="varchar" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB2403" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB2402" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB2404" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX256" populated="true" UUID="c1d376dd-500a-4b86-acaf-cba68152010e" clustered="false" name="sap_bkpf_pk" physicalName="sap_bkpf_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB257" populated="true" UUID="cf95b1b4-503c-4104-a672-21097308a414" name="sap_zactivity" objectType="TABLE" physicalName="sap_zactivity" >
+   <remarks></remarks>
+   <folder id="FOLTAB2571" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL258" populated="true" UUID="3d63b746-5f68-434d-9d05-b11d4814281c" autoIncrement="false" defaultValue="" name="activity_code" nullable="1" physicalName="activity_code" precision="5" referenceCount="1" scale="0" source-column-ref="COL149" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL259" populated="true" UUID="cf4aae29-24fd-4cad-887a-fea3f681f58d" autoIncrement="false" autoIncrementSequenceName="sap_zactivity_name_seq" defaultValue="" name="activity_name" nullable="1" physicalName="activity_name" precision="50" referenceCount="1" scale="0" source-column-ref="COL150" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB2573" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB2572" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB2574" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX260" populated="true" UUID="82c6b210-ee73-4007-8c00-ab2c7945bbc1" clustered="false" name="sap_zactivity_pk" physicalName="sap_zactivity_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB261" populated="true" UUID="ee91fbb7-8519-4f99-81ae-c08b0d34ff54" name="sap_bseg" objectType="TABLE" physicalName="sap_bseg" >
+   <remarks></remarks>
+   <folder id="FOLTAB2611" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL262" populated="true" UUID="521de16e-3f45-49ec-9295-95a2c31d03a1" autoIncrement="false" defaultValue="" name="document_number" nullable="0" physicalName="document_number" precision="10" referenceCount="1" scale="0" source-column-ref="COL38" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL263" populated="true" UUID="5965d5d7-2a00-4da2-b827-e0f69278034f" autoIncrement="false" defaultValue="" name="fiscal_year" nullable="0" physicalName="fiscal_year" precision="0" referenceCount="1" scale="0" source-column-ref="COL39" sourceDataTypeName="varchar" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL264" populated="true" UUID="35e14ff9-90dc-463f-815d-87cf978d4ebd" autoIncrement="false" defaultValue="" name="line_item" nullable="0" physicalName="line_item" precision="0" referenceCount="1" scale="0" source-column-ref="COL40" sourceDataTypeName="varchar" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL265" populated="true" UUID="420cd510-0491-420d-96e3-c9cfc95fa4f1" autoIncrement="false" defaultValue="" name="posting_key" nullable="1" physicalName="posting_key" precision="2" referenceCount="1" scale="0" source-column-ref="COL41" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL266" populated="true" UUID="3db93c42-77c1-481a-8d67-b664249c6a14" autoIncrement="false" defaultValue="" name="account_type" nullable="1" physicalName="account_type" precision="1" referenceCount="1" scale="0" source-column-ref="COL42" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL267" populated="true" UUID="a329d8c6-482a-4a60-81aa-6c4455a8279b" autoIncrement="false" defaultValue="" name="debitcredit_ind" nullable="1" physicalName="debitcredit_ind" precision="1" referenceCount="1" scale="0" source-column-ref="COL43" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL268" populated="true" UUID="0877e416-7df9-46b8-bdae-0f87078044a0" autoIncrement="false" defaultValue="" name="amount_local_currency" nullable="1" physicalName="amount_local_currency" precision="0" referenceCount="1" scale="0" source-column-ref="COL44" sourceDataTypeName="varchar" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL269" populated="true" UUID="eec15f8c-cab0-42da-abfd-22556b159af4" autoIncrement="false" autoIncrementSequenceName="sap_bseg_dummy_currency_1_seq" defaultValue="" name="dummy_currency_1" nullable="1" physicalName="dummy_currency_1" precision="3" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL270" populated="true" UUID="e45502d0-5d4d-4ed0-bb3f-b7104c11970f" autoIncrement="false" defaultValue="" name="amount_doc_currency" nullable="1" physicalName="amount_doc_currency" precision="0" referenceCount="1" scale="0" source-column-ref="COL45" sourceDataTypeName="varchar" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL271" populated="true" UUID="1268224f-9614-4635-abc2-612b1e73d8d6" autoIncrement="false" autoIncrementSequenceName="sap_bseg_dummy_currency_2_seq" defaultValue="" name="dummy_currency_2" nullable="1" physicalName="dummy_currency_2" precision="3" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL272" populated="true" UUID="58251258-078d-4e44-89ae-7cb0e9f82293" autoIncrement="false" defaultValue="" name="gl_amount" nullable="1" physicalName="gl_amount" precision="0" referenceCount="1" scale="0" source-column-ref="COL46" sourceDataTypeName="varchar" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL273" populated="true" UUID="fadd7d97-48c4-4452-879d-47516f85df30" autoIncrement="false" defaultValue="" name="doc_currency" nullable="1" physicalName="doc_currency" precision="3" referenceCount="1" scale="0" source-column-ref="COL47" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL274" populated="true" UUID="bdb63493-107f-4fa0-8b1f-523e4c7278dd" autoIncrement="false" autoIncrementSequenceName="sap_bseg_gl_currency_seq" defaultValue="" name="gl_currency" nullable="1" physicalName="gl_currency" precision="3" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL275" populated="true" UUID="10272769-e64e-4dc4-8eba-5a0bbc45c885" autoIncrement="false" defaultValue="" name="item_text" nullable="1" physicalName="item_text" precision="50" referenceCount="1" scale="0" source-column-ref="COL48" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL276" populated="true" UUID="3eaa3d89-eb2b-4896-85e0-110f961b0a92" autoIncrement="false" defaultValue="" name="cost_center" nullable="1" physicalName="cost_center" precision="10" referenceCount="1" scale="0" source-column-ref="COL49" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL277" populated="true" UUID="f0b0484e-0ee1-4789-8073-d8b374c6a6cd" autoIncrement="false" defaultValue="" name="order_number" nullable="1" physicalName="order_number" precision="12" referenceCount="1" scale="0" source-column-ref="COL50" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL278" populated="true" UUID="74b3cd81-e0d0-4138-a86d-a8b35d857c33" autoIncrement="false" defaultValue="" name="gl_account" nullable="1" physicalName="gl_account" precision="10" referenceCount="1" scale="0" source-column-ref="COL51" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL279" populated="true" UUID="6a1fde2c-256b-410d-a13a-b0a46e33a138" autoIncrement="false" defaultValue="" name="bs_account_flag" nullable="1" physicalName="bs_account_flag" precision="1" referenceCount="1" scale="0" source-column-ref="COL52" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL280" populated="true" UUID="4667c059-c288-4751-a8be-7acad8f04a71" autoIncrement="false" defaultValue="" name="pl_account_type" nullable="1" physicalName="pl_account_type" precision="2" referenceCount="1" scale="0" source-column-ref="COL53" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL281" populated="true" UUID="74af7c4c-7868-4e68-ac75-88006b56410f" autoIncrement="false" defaultValue="" name="functional_area" nullable="1" physicalName="functional_area" precision="16" referenceCount="1" scale="0" source-column-ref="COL54" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL282" populated="true" UUID="28430921-467f-4454-a2b9-2a002bc257f4" autoIncrement="false" defaultValue="" name="cost_element" nullable="1" physicalName="cost_element" precision="10" referenceCount="1" scale="0" source-column-ref="COL55" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL283" populated="true" UUID="2e11d4a8-b69e-41e2-9ecd-9a0380bc7ab0" autoIncrement="false" defaultValue="" name="donor" nullable="1" physicalName="donor" precision="5" referenceCount="1" scale="0" source-column-ref="COL56" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL284" populated="true" UUID="7069fa35-bd76-42ce-912f-2a1104e136cf" autoIncrement="false" defaultValue="" name="activity_code" nullable="1" physicalName="activity_code" precision="5" referenceCount="1" scale="0" source-column-ref="COL57" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL285" populated="true" UUID="42d74698-af77-48c9-a56e-1db70e204c57" autoIncrement="false" defaultValue="" name="donor_line" nullable="1" physicalName="donor_line" precision="5" referenceCount="1" scale="0" source-column-ref="COL58" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL286" populated="true" UUID="bc68706d-6236-4ac9-8c18-54f8f058a2a2" autoIncrement="false" defaultValue="" name="benefit_country" nullable="1" physicalName="benefit_country" precision="4" referenceCount="1" scale="0" source-column-ref="COL59" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL287" populated="true" UUID="632d1a6a-6c15-48c1-887e-90041cf8850c" autoIncrement="false" defaultValue="" name="theme" nullable="1" physicalName="theme" precision="1" referenceCount="1" scale="0" source-column-ref="COL60" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL288" populated="true" UUID="95a64b41-cc07-4639-997c-b2b59a22736c" autoIncrement="false" defaultValue="" name="outcome" nullable="1" physicalName="outcome" precision="1" referenceCount="1" scale="0" source-column-ref="COL61" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL289" populated="true" UUID="6ff5325e-e48b-45d9-a47e-b2e6d3787f66" autoIncrement="false" defaultValue="" name="gender_rights" nullable="1" physicalName="gender_rights" precision="1" referenceCount="1" scale="0" source-column-ref="COL62" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL290" populated="true" UUID="e849bcee-c2f6-44e6-8ddb-f6564b22b499" autoIncrement="false" defaultValue="" name="cf_leader" nullable="1" physicalName="cf_leader" precision="1" referenceCount="1" scale="0" source-column-ref="COL63" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL291" populated="true" UUID="ba0050c5-c5e9-4a47-90e3-221f2a9bce1a" autoIncrement="false" autoIncrementSequenceName="sap_bseg_monitorevaluat_seq" defaultValue="" name="monitor_eval" nullable="1" physicalName="monitor_eval" precision="1" referenceCount="1" scale="0" source-column-ref="COL64" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL292" populated="true" UUID="e247bbf0-f988-4445-9686-84051bceb931" autoIncrement="false" defaultValue="" name="staff_no" nullable="1" physicalName="staff_no" precision="5" referenceCount="1" scale="0" source-column-ref="COL65" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB2613" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB2612" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB2614" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX293" populated="true" UUID="61fa45f1-68a6-41c0-bc45-d52399de314f" clustered="false" name="sap_bseg_pk" physicalName="sap_bseg_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB294" populated="true" UUID="ea513fa5-5d25-4f6a-ab07-e6c252916b85" name="sap_zdonor_line" objectType="TABLE" physicalName="sap_zdonor_line" >
+   <remarks></remarks>
+   <folder id="FOLTAB2941" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL295" populated="true" UUID="3b4d7190-eef3-40db-bec8-70e3c0a1c982" autoIncrement="false" defaultValue="" name="donor_line" nullable="1" physicalName="donor_line" precision="5" referenceCount="1" scale="0" source-column-ref="COL170" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL296" populated="true" UUID="e84a9009-0f99-4238-86a0-ef679e036fda" autoIncrement="false" autoIncrementSequenceName="sap_zdonor_line_name_seq" defaultValue="" name="donor_line_name" nullable="1" physicalName="donor_line_name" precision="50" referenceCount="1" scale="0" source-column-ref="COL171" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB2943" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB2942" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB2944" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX297" populated="true" UUID="cebb5d4b-c22e-42f0-8f55-9c34ab06fe66" clustered="false" name="sap_zdonor_line_pk" physicalName="sap_zdonor_line_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB298" populated="true" UUID="1424f63f-e5cb-4a52-a47e-e1911fbf051f" name="sap_aufk" objectType="TABLE" physicalName="sap_aufk" >
+   <remarks></remarks>
+   <folder id="FOLTAB2981" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL299" populated="true" UUID="cca801d1-9100-449d-b8fc-3864e6d2c085" autoIncrement="false" autoIncrementSequenceName="sap_aufk_order_num_seq" defaultValue="" name="order_number" nullable="0" physicalName="order_number" precision="12" referenceCount="1" scale="0" source-column-ref="COL7" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL300" populated="true" UUID="8e6b24fe-d0ec-4848-96f9-3a9858ab3179" autoIncrement="false" defaultValue="" name="description" nullable="1" physicalName="description" precision="40" referenceCount="1" scale="0" source-column-ref="COL8" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL301" populated="true" UUID="2631d9ba-e144-4be7-8da0-e406e485872f" autoIncrement="false" defaultValue="" name="currency" nullable="1" physicalName="currency" precision="5" referenceCount="1" scale="0" source-column-ref="COL9" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL302" populated="true" UUID="38e5651e-6c0d-4d20-be67-490dab04599c" autoIncrement="false" defaultValue="" name="donor" nullable="1" physicalName="donor" precision="5" referenceCount="1" scale="0" source-column-ref="COL10" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL303" populated="true" UUID="06a7238d-3877-458e-8ebf-9e45ee1b20b6" autoIncrement="false" defaultValue="" name="activity_code" nullable="1" physicalName="activity_code" precision="5" referenceCount="1" scale="0" source-column-ref="COL11" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL304" populated="true" UUID="e67333dc-93f9-49c1-910a-13925d4ddf6f" autoIncrement="false" defaultValue="" name="donor_line" nullable="1" physicalName="donor_line" precision="5" referenceCount="1" scale="0" source-column-ref="COL12" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL305" populated="true" UUID="45de837f-7f9d-4f61-b473-7d524e546bce" autoIncrement="false" defaultValue="" name="benefit_country" nullable="1" physicalName="benefit_country" precision="4" referenceCount="1" scale="0" source-column-ref="COL13" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL306" populated="true" UUID="2822ed7f-c280-4b93-93cc-94ad763c05b9" autoIncrement="false" defaultValue="" name="theme" nullable="1" physicalName="theme" precision="1" referenceCount="1" scale="0" source-column-ref="COL14" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL307" populated="true" UUID="c425baa2-a075-4ebd-9464-75246a745c40" autoIncrement="false" defaultValue="" name="outcome" nullable="1" physicalName="outcome" precision="1" referenceCount="1" scale="0" source-column-ref="COL15" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL308" populated="true" UUID="3f51a5e2-b1cf-41d4-af79-7355eb5c84f4" autoIncrement="false" defaultValue="" name="genderrights" nullable="1" physicalName="genderrights" precision="1" referenceCount="1" scale="0" source-column-ref="COL16" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL309" populated="true" UUID="3d32c4eb-e535-4e0d-aba0-87c9362d3c01" autoIncrement="false" defaultValue="" name="cf_leadership" nullable="1" physicalName="cf_leadership" precision="1" referenceCount="1" scale="0" source-column-ref="COL17" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL310" populated="true" UUID="72dab0a3-3af0-4c16-a0c8-e9ef56ef33f0" autoIncrement="false" defaultValue="" name="monitorevaluat" nullable="1" physicalName="monitorevaluat" precision="1" referenceCount="1" scale="0" source-column-ref="COL18" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB2983" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB2982" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB2984" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX311" populated="true" UUID="422d91ec-b51e-4df2-909f-1bb563b0be84" clustered="false" name="sap_aufk_pk" physicalName="sap_aufk_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB312" populated="true" UUID="976c1a55-34c5-404c-b493-d854a0f0c594" name="sap_csks" objectType="TABLE" physicalName="sap_csks" >
+   <remarks></remarks>
+   <folder id="FOLTAB3121" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL313" populated="true" UUID="c9b7e8a3-a8f5-4f1b-b81c-ef1d3b254786" autoIncrement="false" defaultValue="" name="cost_center" nullable="0" physicalName="cost_center" precision="10" referenceCount="1" scale="0" source-column-ref="COL108" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL314" populated="true" UUID="3c5b10eb-f798-41b6-b747-f927fc115a49" autoIncrement="false" autoIncrementSequenceName="sap_csks_valid_to_seq" defaultValue="" name="valid_to_date" nullable="0" physicalName="valid_to_date" precision="0" referenceCount="1" scale="0" source-column-ref="COL109" sourceDataTypeName="varchar" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    <column id="COL315" populated="true" UUID="48785f30-be8f-4eae-b609-7757f77ed1e3" autoIncrement="false" autoIncrementSequenceName="sap_csks_valid_from_seq" defaultValue="" name="valid_from_date" nullable="1" physicalName="valid_from_date" precision="0" referenceCount="1" scale="0" source-column-ref="COL110" sourceDataTypeName="varchar" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    <column id="COL316" populated="true" UUID="9bf79a97-7e38-4edf-b400-3d874fe048f1" autoIncrement="false" defaultValue="" name="cost_center_category" nullable="1" physicalName="cost_center_category" precision="1" referenceCount="1" scale="0" source-column-ref="COL111" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL317" populated="true" UUID="3ad0ad6e-590d-4b40-85cd-41ef9bf316e2" autoIncrement="false" defaultValue="" name="currency" nullable="1" physicalName="currency" precision="5" referenceCount="1" scale="0" source-column-ref="COL112" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL318" populated="true" UUID="a60816d0-aa3c-4cdc-afbe-765172d28a9b" autoIncrement="false" defaultValue="" name="department" nullable="1" physicalName="department" precision="12" referenceCount="1" scale="0" source-column-ref="COL113" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL319" populated="true" UUID="5af15dee-5be1-441e-a2df-2125e85a1869" autoIncrement="false" defaultValue="" name="title" nullable="1" physicalName="title" precision="15" referenceCount="1" scale="0" source-column-ref="COL114" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL320" populated="true" UUID="88a43c70-bf01-47e3-b17e-8ed8548fbb61" autoIncrement="false" defaultValue="" name="name" nullable="1" physicalName="name" precision="35" referenceCount="1" scale="0" source-column-ref="COL115" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL321" populated="true" UUID="a3368ced-6b97-4ed6-942e-ae20c692c079" autoIncrement="false" defaultValue="" name="name_2" nullable="1" physicalName="name_2" precision="35" referenceCount="1" scale="0" source-column-ref="COL116" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB3123" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB3122" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB3124" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX322" populated="true" UUID="976e6435-7f79-4a2a-a5ac-3c7154ab31fc" clustered="false" name="sap_csks_pk" physicalName="sap_csks_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB323" populated="true" UUID="59c3501e-dd4c-4f63-b93c-7b0285b68c0b" name="sap_zmon_val" objectType="TABLE" physicalName="sap_zmon_val" >
+   <remarks></remarks>
+   <folder id="FOLTAB3231" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL324" populated="true" UUID="e48da1be-41be-45d0-be7c-39141ef2e86e" autoIncrement="false" defaultValue="" name="monitorevaluat" nullable="1" physicalName="monitorevaluat" precision="1" referenceCount="1" scale="0" source-column-ref="COL178" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL325" populated="true" UUID="9202478e-4b1c-449c-88c2-54e072aba91c" autoIncrement="false" autoIncrementSequenceName="sap_zmon_val_name_seq" defaultValue="" name="monitorevaluat_name" nullable="1" physicalName="monitorevaluat_name" precision="50" referenceCount="1" scale="0" source-column-ref="COL179" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB3233" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB3232" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB3234" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX326" populated="true" UUID="b0e41484-bbeb-493e-b340-8701cddd25fc" clustered="false" name="sap_zmon_val_pk" physicalName="sap_zmon_val_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB327" populated="true" UUID="a27b05fd-ad15-47ea-85a9-bdf8e0e9edc4" name="sap_ztheme" objectType="TABLE" physicalName="sap_ztheme" >
+   <remarks></remarks>
+   <folder id="FOLTAB3271" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL328" populated="true" UUID="8acd4854-fde7-44d9-8dfd-4e6ec25d828d" autoIncrement="false" defaultValue="" name="theme" nullable="1" physicalName="theme" precision="1" referenceCount="1" scale="0" source-column-ref="COL190" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL329" populated="true" UUID="2b2dbf4d-014f-4cc2-9bc4-1d339a48ea29" autoIncrement="false" autoIncrementSequenceName="sap_ztheme_name_seq" defaultValue="" name="theme_name" nullable="1" physicalName="theme_name" precision="50" referenceCount="1" scale="0" source-column-ref="COL191" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB3273" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB3272" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB3274" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX330" populated="true" UUID="3a4106fe-e151-4744-ac46-c67f5d60cea2" clustered="false" name="sap_ztheme_pk" physicalName="sap_ztheme_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB331" populated="true" UUID="b2b08e5b-6b89-4987-92b2-da3cd28fbbf0" name="sap_cskt" objectType="TABLE" physicalName="sap_cskt" >
+   <remarks></remarks>
+   <folder id="FOLTAB3311" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL332" populated="true" UUID="9649f5ed-cd84-481d-953d-6cb2a9344a5c" autoIncrement="false" defaultValue="" name="cost_center" nullable="0" physicalName="cost_center" precision="10" referenceCount="1" scale="0" source-column-ref="COL119" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL333" populated="true" UUID="8d022e75-c406-489d-9c19-807bb6245b0e" autoIncrement="false" autoIncrementSequenceName="sap_cskt_valid_to_seq" defaultValue="" name="valid_to_date" nullable="0" physicalName="valid_to_date" precision="0" referenceCount="1" scale="0" source-column-ref="COL120" sourceDataTypeName="varchar" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    <column id="COL334" populated="true" UUID="a32b2e39-456f-416a-8baf-69941f2673e1" autoIncrement="false" defaultValue="" name="name" nullable="1" physicalName="name" precision="20" referenceCount="1" scale="0" source-column-ref="COL121" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL335" populated="true" UUID="0d6161fe-e745-4580-8371-2b2d35b05c6c" autoIncrement="false" defaultValue="" name="description" nullable="1" physicalName="description" precision="40" referenceCount="1" scale="0" source-column-ref="COL122" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB3313" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB3312" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB3314" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX336" populated="true" UUID="8a39b1e4-b8d3-49c3-b0f2-5b03c3a2538a" clustered="false" name="sap_cskt_pk" physicalName="sap_cskt_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB337" populated="true" UUID="7eb78646-20b0-42fb-ac33-bbc8148c2c0c" name="sap_zstaff" objectType="TABLE" physicalName="sap_zstaff" >
+   <remarks></remarks>
+   <folder id="FOLTAB3371" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL338" populated="true" UUID="a88c1668-4a0e-4b4f-9ee4-47c82e38f100" autoIncrement="false" defaultValue="" name="staff_no" nullable="1" physicalName="staff_no" precision="5" referenceCount="1" scale="0" source-column-ref="COL186" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL339" populated="true" UUID="023a7319-d033-4df1-ae3c-d8f9202d2a38" autoIncrement="false" autoIncrementSequenceName="sap_zstaff_message_text_seq" defaultValue="" name="staff_name" nullable="1" physicalName="staff_name" precision="70" referenceCount="1" scale="0" source-column-ref="COL187" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB3373" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB3372" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB3374" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX340" populated="true" UUID="bdf70212-60e1-44c3-b8fc-4d947766efe7" clustered="false" name="sap_zstaff_pk" physicalName="sap_zstaff_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB341" populated="true" UUID="8fc3f49a-1c27-43e9-b702-201c62beccbf" name="sap_zbenefit_country" objectType="TABLE" physicalName="sap_zbenefit_country" >
+   <remarks></remarks>
+   <folder id="FOLTAB3411" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL342" populated="true" UUID="d0aad9b9-d9eb-41e3-b711-a6fe693db64e" autoIncrement="false" defaultValue="" name="benefit_country" nullable="1" physicalName="benefit_country" precision="4" referenceCount="1" scale="0" source-column-ref="COL153" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL343" populated="true" UUID="adcf1e7a-fe90-4044-a064-d26e4b7f6fb0" autoIncrement="false" autoIncrementSequenceName="sap_zbenefit_country_name_seq" defaultValue="" name="benefit_country_name" nullable="1" physicalName="benefit_country_name" precision="50" referenceCount="1" scale="0" source-column-ref="COL154" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB3413" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB3412" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB3414" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX344" populated="true" UUID="3aa01886-86de-441b-8b73-8bf717cb9a42" clustered="false" name="sap_zbenefit_country_pk" physicalName="sap_zbenefit_country_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB345" populated="true" UUID="a14fa0a5-d513-4213-bc36-43ff05df6467" name="sap_csku" objectType="TABLE" physicalName="sap_csku" >
+   <remarks></remarks>
+   <folder id="FOLTAB3451" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL346" populated="true" UUID="79540cf0-13a6-462e-a175-bdbfa17384b3" autoIncrement="false" autoIncrementSequenceName="sap_csku_chart_of_accounts_seq" defaultValue="" name="language" nullable="0" physicalName="language" precision="2" referenceCount="1" scale="0" source-column-ref="COL125" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL347" populated="true" UUID="d981b1e1-fdfc-4470-a5fc-adaab92e4277" autoIncrement="false" defaultValue="" name="cost_element" nullable="0" physicalName="cost_element" precision="10" referenceCount="1" scale="0" source-column-ref="COL126" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL348" populated="true" UUID="f1d54616-bb48-4f0d-8ece-bb98dbbaef13" autoIncrement="false" defaultValue="" name="name" nullable="1" physicalName="name" precision="20" referenceCount="1" scale="0" source-column-ref="COL127" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL349" populated="true" UUID="7666e589-551b-46fd-a9f5-dd5579ca507c" autoIncrement="false" defaultValue="" name="description" nullable="1" physicalName="description" precision="40" referenceCount="1" scale="0" source-column-ref="COL128" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB3453" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB3452" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB3454" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX350" populated="true" UUID="c1f05b38-361e-4a31-aee1-3076694993c7" clustered="false" name="sap_csku_pk" physicalName="sap_csku_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB351" populated="true" UUID="11c6b4d3-6589-4fe7-abef-b427e80581fc" name="sap_zdonor_grp" objectType="TABLE" physicalName="sap_zdonor_grp" >
+   <remarks></remarks>
+   <folder id="FOLTAB3511" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL352" populated="true" UUID="32fa0cdf-83c4-4880-a6bf-7f97b54c7d25" autoIncrement="false" defaultValue="" name="donor_grouping" nullable="1" physicalName="donor_grouping" precision="5" referenceCount="1" scale="0" source-column-ref="COL166" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL353" populated="true" UUID="56cbe922-8a7a-4911-aeae-be9e69e96565" autoIncrement="false" autoIncrementSequenceName="sap_zdonor_grp_description_seq" defaultValue="" name="donor_grouping_desc" nullable="1" physicalName="donor_grouping_desc" precision="50" referenceCount="1" scale="0" source-column-ref="COL167" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB3513" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB3512" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB3514" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX354" populated="true" UUID="60ecfb01-e353-41b4-911a-a6a4afc935d6" clustered="false" name="sap_zdonor_grp_pk" physicalName="sap_zdonor_grp_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB355" populated="true" UUID="1cb25829-6513-4f9b-95b3-a82a60b797dd" name="sap_coep" objectType="TABLE" physicalName="sap_coep" >
+   <remarks></remarks>
+   <folder id="FOLTAB3551" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL356" populated="true" UUID="db611e4c-124f-4962-8c5c-91fe95e820c8" autoIncrement="false" defaultValue="" name="document_number" nullable="0" physicalName="document_number" precision="10" referenceCount="1" scale="0" source-column-ref="COL79" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL357" populated="true" UUID="833608d1-dd8a-405a-94ed-b2cb5d44b50a" autoIncrement="false" defaultValue="" name="posting_row" nullable="0" physicalName="posting_row" precision="0" referenceCount="1" scale="0" source-column-ref="COL80" sourceDataTypeName="varchar" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL358" populated="true" UUID="8015dffd-8953-4e5e-bcd4-51462d003ef5" autoIncrement="false" defaultValue="" name="period" nullable="1" physicalName="period" precision="0" referenceCount="1" scale="0" source-column-ref="COL81" sourceDataTypeName="varchar" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL359" populated="true" UUID="6ac39f00-24a0-49ce-bbc9-b0bdd7fe3c7c" autoIncrement="false" autoIncrementSequenceName="sap_coep_value_trancurr_seq" defaultValue="" name="value_trans_currency" nullable="1" physicalName="value_trans_currency" precision="0" referenceCount="1" scale="0" source-column-ref="COL82" sourceDataTypeName="varchar" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL360" populated="true" UUID="d348d7ba-57a3-4312-9ea5-36e33a12584a" autoIncrement="false" autoIncrementSequenceName="sap_coep_trans_currency_seq" defaultValue="" name="trans_currency" nullable="1" physicalName="trans_currency" precision="3" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL361" populated="true" UUID="8bb0c7aa-e2f9-4f54-9c89-5be46af77916" autoIncrement="false" autoIncrementSequenceName="sap_coep_value_in_obj_crcy_seq" defaultValue="" name="value_obj_currency" nullable="1" physicalName="value_obj_currency" precision="0" referenceCount="1" scale="0" source-column-ref="COL83" sourceDataTypeName="varchar" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL362" populated="true" UUID="1e374147-49b3-40a1-83f3-fc1f4880fdca" autoIncrement="false" autoIncrementSequenceName="sap_coep_obj_currency_seq" defaultValue="" name="obj_currency" nullable="1" physicalName="obj_currency" precision="3" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL363" populated="true" UUID="d69b9c3f-4979-4c59-84a3-e2893a729497" autoIncrement="false" autoIncrementSequenceName="sap_coep_valcoarea_crcy_seq" defaultValue="" name="value_co_area_currency" nullable="1" physicalName="value_co_area_currency" precision="0" referenceCount="1" scale="0" source-column-ref="COL84" sourceDataTypeName="varchar" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL364" populated="true" UUID="42d79605-cdc8-4f29-a9b4-8389fa881157" autoIncrement="false" defaultValue="" name="fiscal_year" nullable="1" physicalName="fiscal_year" precision="0" referenceCount="1" scale="0" source-column-ref="COL85" sourceDataTypeName="varchar" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL365" populated="true" UUID="1403c3a1-0991-4baa-a274-821415972671" autoIncrement="false" defaultValue="" name="cost_element" nullable="1" physicalName="cost_element" precision="10" referenceCount="1" scale="0" source-column-ref="COL86" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL366" populated="true" UUID="c02e214a-dbfd-4406-b9bd-d4da7dbd9728" autoIncrement="false" defaultValue="" name="transaction_currency" nullable="1" physicalName="transaction_currency" precision="3" referenceCount="1" scale="0" source-column-ref="COL87" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL367" populated="true" UUID="b0b9133f-dfb4-4fca-a468-645065559046" autoIncrement="false" defaultValue="" name="object_currency" nullable="1" physicalName="object_currency" precision="3" referenceCount="1" scale="0" source-column-ref="COL88" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL368" populated="true" UUID="e5cb2af8-a0b0-45f3-bedf-9667ad048422" autoIncrement="false" defaultValue="" name="name" nullable="1" physicalName="name" precision="50" referenceCount="1" scale="0" source-column-ref="COL89" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL369" populated="true" UUID="b134820d-4d23-4c32-acb9-35efee448327" autoIncrement="false" defaultValue="" name="posting_row_ref_doc" nullable="1" physicalName="posting_row_ref_doc" precision="0" referenceCount="1" scale="0" source-column-ref="COL90" sourceDataTypeName="varchar" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL370" populated="true" UUID="1c3c0caa-f9a1-46b4-81ee-ca3c3092da33" autoIncrement="false" defaultValue="" name="document_item_number" nullable="1" physicalName="document_item_number" precision="0" referenceCount="1" scale="0" source-column-ref="COL91" sourceDataTypeName="varchar" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL371" populated="true" UUID="de06d230-ed07-4d39-addd-5b9e208c019e" autoIncrement="false" defaultValue="" name="donor" nullable="1" physicalName="donor" precision="5" referenceCount="1" scale="0" source-column-ref="COL92" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL372" populated="true" UUID="f3f16fda-3c8c-442d-b158-e8721e937273" autoIncrement="false" defaultValue="" name="activity_code" nullable="1" physicalName="activity_code" precision="5" referenceCount="1" scale="0" source-column-ref="COL93" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL373" populated="true" UUID="af5ae37e-69fd-46e1-b8c5-b7ce30874777" autoIncrement="false" defaultValue="" name="donor_line" nullable="1" physicalName="donor_line" precision="5" referenceCount="1" scale="0" source-column-ref="COL94" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL374" populated="true" UUID="49c867d9-ca29-4481-b961-bf84a051df64" autoIncrement="false" defaultValue="" name="benefit_country" nullable="1" physicalName="benefit_country" precision="4" referenceCount="1" scale="0" source-column-ref="COL95" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL375" populated="true" UUID="d351ca73-bd3d-4d06-9a76-f96963b78e97" autoIncrement="false" defaultValue="" name="theme" nullable="1" physicalName="theme" precision="1" referenceCount="1" scale="0" source-column-ref="COL96" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL376" populated="true" UUID="0a4d4f80-dcce-46d7-bf89-79f4316351ce" autoIncrement="false" defaultValue="" name="outcome" nullable="1" physicalName="outcome" precision="1" referenceCount="1" scale="0" source-column-ref="COL97" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL377" populated="true" UUID="cf8ac29d-8bf9-4c98-89d8-347f25606d9f" autoIncrement="false" defaultValue="" name="genderrights" nullable="1" physicalName="genderrights" precision="1" referenceCount="1" scale="0" source-column-ref="COL98" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL378" populated="true" UUID="3efcc214-a55d-456e-8683-4c57b258b94c" autoIncrement="false" defaultValue="" name="cf_leadership" nullable="1" physicalName="cf_leadership" precision="1" referenceCount="1" scale="0" source-column-ref="COL99" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL379" populated="true" UUID="672e3d80-73f3-464b-9060-b62214ceabdd" autoIncrement="false" defaultValue="" name="monitorevaluat" nullable="1" physicalName="monitorevaluat" precision="1" referenceCount="1" scale="0" source-column-ref="COL100" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL380" populated="true" UUID="5f652645-7083-4667-ad6a-2d7a04a19bb6" autoIncrement="false" defaultValue="" name="staff_no" nullable="1" physicalName="staff_no" precision="5" referenceCount="1" scale="0" source-column-ref="COL101" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB3553" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB3552" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB3554" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX381" populated="true" UUID="0d95e9d7-8689-40e7-9b8b-54145e17ea92" clustered="false" name="sap_coep_pk" physicalName="sap_coep_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB382" populated="true" UUID="b6d6adb8-cdfc-4204-9bd5-c1f9b0671711" name="sap_skat" objectType="TABLE" physicalName="sap_skat" >
+   <remarks></remarks>
+   <folder id="FOLTAB3821" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL383" populated="true" UUID="87e91006-39db-449a-a500-b574abc00145" autoIncrement="false" autoIncrementSequenceName="sap_skat_language_seq" defaultValue="" name="language" nullable="0" physicalName="language" precision="1" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL384" populated="true" UUID="bf32f8d9-fb8e-450e-934d-af48d7ede4ac" autoIncrement="false" autoIncrementSequenceName="sap_skat_chart_of_accounts_seq" defaultValue="" name="chart_of_accounts" nullable="0" physicalName="chart_of_accounts" precision="4" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL385" populated="true" UUID="6c152d53-c6a7-490a-ab99-b855d4e37b42" autoIncrement="false" autoIncrementSequenceName="sap_skat_gl_account_seq" defaultValue="" name="gl_account" nullable="0" physicalName="gl_account" precision="10" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL386" populated="true" UUID="310d7532-8d68-4f14-948f-d1579073b6a6" autoIncrement="false" autoIncrementSequenceName="sap_skat_description_seq" defaultValue="" name="description" nullable="1" physicalName="description" precision="60" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB3823" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB3822" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB3824" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX387" populated="true" UUID="610efa47-4a88-41e8-84ce-8ab6381cc9e0" clustered="false" name="sap_skat_pk" physicalName="sap_skat_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <relationships>
+  </relationships>
+ </target-database>
+ <ddl-generator type="ca.sqlpower.architect.ddl.PostgresDDLGenerator" allow-connection="true" target-schema="public"> </ddl-generator>
+ <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
+ <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
+ <play-pen zoom="1.0" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
+  <table-pane table-ref="TAB194" x="500" y="22" bgColor="0xf6bcbc" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB203" x="744" y="465" bgColor="0xc8dccc" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB207" x="744" y="168" bgColor="0xc8dccc" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB212" x="744" y="606" bgColor="0xc8dccc" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB216" x="262" y="19" bgColor="0xb9bbf6" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB227" x="53" y="768" bgColor="0xb9bbf6" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB236" x="746" y="739" bgColor="0xc8dccc" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB240" x="53" y="18" bgColor="0xb9bbf6" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB257" x="744" y="23" bgColor="0xc8dccc" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB261" x="53" y="273" bgColor="0xb9bbf6" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB294" x="744" y="250" bgColor="0xc8dccc" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB298" x="501" y="675" bgColor="0xf6bcbc" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB312" x="501" y="388" bgColor="0xf6bcbc" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB323" x="744" y="534" bgColor="0xc8dccc" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB327" x="746" y="677" bgColor="0xc8dccc" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB331" x="503" y="567" bgColor="0xf6bcbc" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB337" x="744" y="397" bgColor="0xc8dccc" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB341" x="744" y="321" bgColor="0xc8dccc" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB345" x="501" y="281" bgColor="0xf6bcbc" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB351" x="744" y="96" bgColor="0xc8dccc" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB355" x="267" y="277" bgColor="0xb9bbf6" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB382" x="503" y="172" bgColor="0xf6bcbc" fgColor="0x000000" rounded="false" dashed="false"/>
+ </play-pen>
+ <critic-manager>
+  <critic-grouping platformType="Generic" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PrimaryKeyCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.RelationshipMappingTypeCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.EmptyRelationshipCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericSequenceNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetDefaultOnColumnWithNoDefaultCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetNullOnNonNullableColumnCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DuplicateNameCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="DB2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DB2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="H2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.H2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="HSQLDB" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.HSQLDBUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="MySQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLCommentCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="Oracle" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OraclePhysicalNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="PostgreSQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PostgreSQLReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerUnsupportedFeaturesCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2000" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2000UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2005" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2005UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+ </critic-manager>
+ <profiles topNCount="10">
+  </profiles>
+  <olap>
+  </olap>
+  <olap-gui>
+  </olap-gui>
+</architect-project>
