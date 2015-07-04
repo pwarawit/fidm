@@ -1,2 +1,0 @@
-document_number	fiscal_year	line_item	posting_key	account_type	debitcredit_ind	amount_local_currency	amount_doc_currency	gl_amount	gl_currency	item_text	cost_center	order_number	gl_account	bs_account_flag	pl_account_type	functional_area	cost_element	donor_code	activity_code	donor_line	benefit_country	theme	outcome	gender_rights	cf_leader	monitor_eval	staff_no
-2000      	
