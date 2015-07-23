@@ -1203,7 +1203,7 @@
     <column id="COL318" populated="true" UUID="a60816d0-aa3c-4cdc-afbe-765172d28a9b" autoIncrement="false" defaultValue="" name="department" nullable="1" physicalName="department" precision="12" referenceCount="1" scale="0" source-column-ref="COL113" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL319" populated="true" UUID="5af15dee-5be1-441e-a2df-2125e85a1869" autoIncrement="false" defaultValue="" name="title" nullable="1" physicalName="title" precision="15" referenceCount="1" scale="0" source-column-ref="COL114" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL319" populated="true" UUID="5af15dee-5be1-441e-a2df-2125e85a1869" autoIncrement="false" defaultValue="" name="title" nullable="1" physicalName="title" precision="35" referenceCount="1" scale="0" source-column-ref="COL114" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
     <column id="COL320" populated="true" UUID="88a43c70-bf01-47e3-b17e-8ed8548fbb61" autoIncrement="false" defaultValue="" name="name" nullable="1" physicalName="name" precision="35" referenceCount="1" scale="0" source-column-ref="COL115" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
@@ -1651,7 +1651,7 @@
   <relationships>
   </relationships>
  </target-database>
- <ddl-generator type="ca.sqlpower.architect.ddl.PostgresDDLGenerator" allow-connection="false" target-schema="public"> </ddl-generator>
+ <ddl-generator type="ca.sqlpower.architect.ddl.PostgresDDLGenerator" allow-connection="true" target-schema="public"> </ddl-generator>
  <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
  <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
  <play-pen zoom="1.0" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">

@@ -1,7 +1,0 @@
-	THEME	THEME_DESC
-	0	General
-	A	Securing Community Forestry
-	B	Enhancing Livelihoods and Markets
-	C	People, Forests, and Climate Change
-	D	Transforming Forest Conflicts
-	E	All

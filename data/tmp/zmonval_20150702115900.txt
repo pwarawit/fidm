@@ -1,4 +1,0 @@
-	MO_EVAL	MO_EVAL_DESC
-	0	General
-	N	No
-	Y	Yes

@@ -1,4 +1,0 @@
-	DONOR_GRP	DONOR_GRP_DESC
-	PRJ	Project Fund
-	RCF	RECOFTC Fund
-	RTG	Programme & RTG
