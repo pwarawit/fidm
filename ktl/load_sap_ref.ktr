@@ -275,6 +275,17 @@
     <encoding/>
     <fields>
       <field>
+        <name>na_field</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
         <name>activity_code</name>
         <type>String</type>
         <format/>
@@ -377,6 +388,17 @@
     <encoding/>
     <fields>
       <field>
+        <name>na_field</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
         <name>benefit_country</name>
         <type>String</type>
         <format/>
@@ -478,6 +500,17 @@
     <newline_possible>N</newline_possible>
     <encoding/>
     <fields>
+      <field>
+        <name>na_field</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
       <field>
         <name>cf_leadership</name>
         <type>String</type>
@@ -709,6 +742,17 @@
     <encoding/>
     <fields>
       <field>
+        <name>na_field</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
         <name>donor_grouping</name>
         <type>String</type>
         <format/>
@@ -924,6 +968,17 @@
     <encoding/>
     <fields>
       <field>
+        <name>na_field</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
         <name>genderrights</name>
         <type>String</type>
         <format/>
@@ -1025,6 +1080,17 @@
     <newline_possible>N</newline_possible>
     <encoding/>
     <fields>
+      <field>
+        <name>na_field</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
       <field>
         <name>monitorevaluat</name>
         <type>String</type>
@@ -1128,6 +1194,17 @@
     <encoding/>
     <fields>
       <field>
+        <name>na_field</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
         <name>outcome</name>
         <type>String</type>
         <format/>
@@ -1230,6 +1307,17 @@
     <encoding/>
     <fields>
       <field>
+        <name>na_field</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
         <name>staff_no</name>
         <type>String</type>
         <format/>
@@ -1331,6 +1419,17 @@
     <newline_possible>N</newline_possible>
     <encoding/>
     <fields>
+      <field>
+        <name>na_field</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
       <field>
         <name>theme</name>
         <type>String</type>
