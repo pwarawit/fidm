@@ -11,3 +11,7 @@ set PGUSER=fidm
 ----
 * It would be best to also add this into %PATH%
 
+3. Otherwise - use this as place holder
+psql -h 158.108.95.7 -p 5432 -d fidm -U fidm 
+
+c:\program files\postgresql\9.3\bin\psql -h 158.108.95.7 -p 5432 -d fidm -U fidm -f 
