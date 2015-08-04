@@ -1,0 +1,13 @@
+This is how to execute SQL command files from Windows via psql
+
+1. Set environment variables
+----
+set PGHOST=158.108.95.7
+set PGPORT=5432
+set PGDATABASE=fidm
+set PGUSER=fidm
+
+2. Location of psql executable (c:\program files\postgresql\9.3\bin)
+----
+* It would be best to also add this into %PATH%
+
