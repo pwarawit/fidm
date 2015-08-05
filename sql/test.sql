@@ -1,15 +1,52 @@
-SELECT 
-    b.donor_name
-    , b.donor_grouping
-    , count(*)
-FROM
-    sap_aufk a
-    , sap_zdonor b
-WHERE
-    a.donor=b.donor
-GROUP BY 
-    b.donor_name
-    ,
-    b.donor_grouping
-    ;
+DROP TABLE IF EXISTS dt_awp;
+
+CREATE TABLE public.dt_awp (
+                time_period INTEGER NOT NULL,
+                order_number VARCHAR(12) NOT NULL,
+                currency VARCHAR(3) NOT NULL,
+                posting_year INTEGER,
+                posting_month INTEGER,
+                calendar_year INTEGER,
+                calendar_month INTEGER,
+                month_year_name VARCHAR,
+                currency_name VARCHAR,
+                order_name VARCHAR,
+                order_name_long VARCHAR,
+                cost_center VARCHAR(10),
+                cost_center_name VARCHAR,
+                cost_center_name_long VARCHAR,
+                activity_code VARCHAR(5),
+                activity_name_long VARCHAR,
+                activity_group_lvl_1 VARCHAR,
+                donor VARCHAR(5),
+                donor_name VARCHAR,
+                donor_name_long VARCHAR,
+                prf_expense_mth NUMERIC,
+                prf_expense_ytd NUMERIC,
+                prf_income_mth NUMERIC,
+                prf_income_ytd NUMERIC,
+                rtg_expense_mth NUMERIC,
+                rtg_expense_ytd NUMERIC,
+                rtg_income_mth NUMERIC,
+                rtg_income_ytd NUMERIC,
+                rcf_expense_mth NUMERIC,
+                rcf_expense_ytd NUMERIC,
+                rcf_income_mth NUMERIC,
+                rcf_income_ytd NUMERIC,
+                prj_expense_mth NUMERIC,
+                prj_expense_ytd NUMERIC,
+                prj_income_mth NUMERIC,
+                prj_income_ytd NUMERIC,
+                total_expense_mth NUMERIC,
+                total_expense_ytd NUMERIC,
+                total_income_mth NUMERIC,
+                total_income_ytd NUMERIC,
+                total_budget0_ytd NUMERIC,
+                total_budget1_ytd NUMERIC,
+                total_balance0_ytd NUMERIC,
+                total_balance1_ytd NUMERIC,
+                last_update TIMESTAMP DEFAULT now(),
+                CONSTRAINT dt_awp_old_pk PRIMARY KEY (time_period, order_number, currency)
+);
+COMMENT ON TABLE public.dt_awp IS 'Data Table for AWP report. AWP: Annual Work Plan';
 
