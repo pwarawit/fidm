@@ -50,6 +50,8 @@ GROUP BY
     time_period
     , order_number
     , currency
+HAVING
+    max(length(object_number))<=14
 ORDER BY
     time_period
     , order_number
@@ -72,6 +74,8 @@ GROUP BY
     time_period
     , order_number
     , currency
+HAVING
+    max(length(object_number))<=14
 ORDER BY
     time_period
     , order_number
@@ -92,6 +96,8 @@ GROUP BY
     time_period
     , order_number
     , currency
+HAVING
+    max(length(object_number))<=14
 ORDER BY
     time_period
     , order_number
@@ -112,6 +118,8 @@ GROUP BY
     time_period
     , order_number
     , currency
+HAVING
+    max(length(object_number))<=14
 ORDER BY
     time_period
     , order_number
@@ -132,6 +140,8 @@ GROUP BY
     time_period
     , order_number
     , currency
+HAVING
+    max(length(object_number))<=14
 ORDER BY
     time_period
     , order_number
@@ -154,6 +164,8 @@ GROUP BY
     time_period
     , order_number
     , currency
+HAVING
+    max(length(object_number))<=14
 ORDER BY
     time_period
     , order_number
@@ -174,6 +186,8 @@ GROUP BY
     time_period
     , order_number
     , currency
+HAVING
+    max(length(object_number))<=14
 ORDER BY
     time_period
     , order_number
@@ -194,6 +208,8 @@ GROUP BY
     time_period
     , order_number
     , currency
+HAVING
+    max(length(object_number))<=14
 ORDER BY
     time_period
     , order_number
