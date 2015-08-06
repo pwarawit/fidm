@@ -13,6 +13,5 @@ insert into dt_awp
         v_awp_budget a
         left outer join v_awp_prf_expense b on (a.time_period=b.time_period AND a.order_number=b.order_number AND a.currency=b.currency)
         left outer join v_awp_rcf_expense c on (a.time_period=c.time_period AND a.order_number=c.order_number AND a.currency=c.currency)
-    where a.time_period=201501
     group by a.time_period, a.order_number, a.currency
     ;
