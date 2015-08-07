@@ -6,6 +6,7 @@ set PGHOST=158.108.95.7
 set PGPORT=5432
 set PGDATABASE=fidm
 set PGUSER=fidm
+set PSQL_EDITOR=gvim
 
 2. Location of psql executable (c:\program files\postgresql\9.3\bin)
 ----
