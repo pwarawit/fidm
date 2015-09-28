@@ -1651,10 +1651,102 @@
     </index>
    </folder>
   </table>
+  <table id="TAB438" populated="true" UUID="fa2ae3eb-54c2-4012-b208-89b66edc695d" name="sap_faglflexa" objectType="TABLE" physicalName="sap_faglflexa" >
+   <remarks></remarks>
+   <folder id="FOLTAB4381" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL439" populated="true" UUID="9b3014ce-6f12-467e-90bf-45b455f39309" autoIncrement="false" defaultValue="" name="fiscal_year" nullable="0" physicalName="fiscal_year" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" source-column-ref="COL22" sourceDataTypeName="varchar" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL440" populated="true" UUID="9d03ea2e-095c-4a6a-b127-0828c514da7e" autoIncrement="false" defaultValue="" name="document_number" nullable="0" physicalName="document_number" precision="10" primaryKeySeq="1" referenceCount="1" scale="0" source-column-ref="COL38" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL441" populated="true" UUID="7ae0f336-3a38-4703-bc7a-7654ea6b6f7a" autoIncrement="false" defaultValue="" name="line_item" nullable="0" physicalName="line_item" precision="0" primaryKeySeq="2" referenceCount="1" scale="0" source-column-ref="COL40" sourceDataTypeName="varchar" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL442" populated="true" UUID="d5fc6793-0d1f-49f8-885f-51a802cd3982" autoIncrement="false" defaultValue="" name="gl_account" nullable="0" physicalName="gl_account" precision="10" primaryKeySeq="3" referenceCount="1" scale="0" source-column-ref="COL51" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL443" populated="true" UUID="2be9309c-77d5-4f93-8b15-b26f40c81ad8" autoIncrement="false" defaultValue="" name="transaction_currency" nullable="0" physicalName="transaction_currency" precision="3" referenceCount="1" scale="0" source-column-ref="COL87" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL444" populated="true" UUID="573d48a8-1d33-4941-ba31-d20c1f6c2852" autoIncrement="false" defaultValue="" name="cost_element" nullable="0" physicalName="cost_element" precision="10" referenceCount="1" scale="0" source-column-ref="COL55" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL445" populated="true" UUID="69fac032-c9b4-4523-9fa9-9434d77e5f27" autoIncrement="false" defaultValue="" name="cost_center" nullable="0" physicalName="cost_center" precision="10" referenceCount="1" scale="0" source-column-ref="COL108" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL446" populated="true" UUID="e45656ae-03bb-48da-aabb-ebe3fa961aee" autoIncrement="false" autoIncrementSequenceName="sap_faglflexa_cost_center_seq" defaultValue="" name="profit_center" nullable="0" physicalName="profit_center" precision="10" referenceCount="1" scale="0" source-column-ref="COL108" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL447" populated="true" UUID="be2ccff9-9b7c-48e0-8f89-4a367857a2a7" autoIncrement="false" defaultValue="" name="functional_area" nullable="0" physicalName="functional_area" precision="16" referenceCount="1" scale="0" source-column-ref="COL54" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL448" populated="true" UUID="7f1057e8-aaf4-487a-9296-17c26934cceb" autoIncrement="false" defaultValue="" name="donor" nullable="0" physicalName="donor" precision="5" referenceCount="1" scale="0" source-column-ref="COL161" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL449" populated="true" UUID="2870effb-4206-4b81-bbc3-9f4e09daf2b2" autoIncrement="false" defaultValue="" name="activity_code" nullable="0" physicalName="activity_code" precision="5" referenceCount="1" scale="0" source-column-ref="COL149" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL450" populated="true" UUID="851c3123-2cfc-4890-8501-9b6c30be3d69" autoIncrement="false" defaultValue="" name="donor_line" nullable="0" physicalName="donor_line" precision="5" referenceCount="1" scale="0" source-column-ref="COL170" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL451" populated="true" UUID="3e35b757-652b-4c78-b070-11d85fbbc40f" autoIncrement="false" defaultValue="" name="genderrights" nullable="0" physicalName="genderrights" precision="1" referenceCount="1" scale="0" source-column-ref="COL174" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL452" populated="true" UUID="092b3b06-fe5c-4dfd-8df7-3781f0478c93" autoIncrement="false" defaultValue="" name="monitorevaluat" nullable="0" physicalName="monitorevaluat" precision="1" referenceCount="1" scale="0" source-column-ref="COL178" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL453" populated="true" UUID="eaba7a56-3860-47c8-b31e-ab9aeb57b00b" autoIncrement="false" defaultValue="" name="outcome" nullable="0" physicalName="outcome" precision="1" referenceCount="1" scale="0" source-column-ref="COL182" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL454" populated="true" UUID="ac059c72-3d16-4e4b-9c04-7b65c98341ec" autoIncrement="false" defaultValue="" name="theme" nullable="1" physicalName="theme" precision="1" referenceCount="1" scale="0" source-column-ref="COL190" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL455" populated="true" UUID="15f5d33e-8881-4dcc-a8a1-f1f255d212f3" autoIncrement="false" defaultValue="" name="staff_no" nullable="1" physicalName="staff_no" precision="5" referenceCount="1" scale="0" source-column-ref="COL186" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL456" populated="true" UUID="02900a35-317f-4700-b2b6-9973ee78cdce" autoIncrement="false" autoIncrementSequenceName="sap_faglflexa_amount_doc_currency_seq" defaultValue="" name="amount_trans_currency" nullable="1" physicalName="amount_trans_currency" precision="0" referenceCount="1" scale="0" source-column-ref="COL45" sourceDataTypeName="varchar" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL457" populated="true" UUID="f6c538c6-263d-4696-a42d-e1ee6dce3345" autoIncrement="false" defaultValue="" name="amount_local_currency" nullable="1" physicalName="amount_local_currency" precision="0" referenceCount="1" scale="0" source-column-ref="COL44" sourceDataTypeName="varchar" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL458" populated="true" UUID="e3553986-8615-4d27-8989-4e1020a98a8a" autoIncrement="false" autoIncrementSequenceName="sap_faglflexa_amount_local_currency_seq" defaultValue="" name="amount_group_currency" nullable="1" physicalName="amount_group_currency" precision="0" referenceCount="1" scale="0" source-column-ref="COL44" sourceDataTypeName="varchar" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL459" populated="true" UUID="b441b91c-666a-4088-9387-c1b322c23c45" autoIncrement="false" autoIncrementSequenceName="sap_faglflexa_amount_doc_currency_seq" defaultValue="" name="amount_orig_trans_currency" nullable="1" physicalName="amount_orig_trans_currency" precision="0" referenceCount="1" scale="0" source-column-ref="COL45" sourceDataTypeName="varchar" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL460" populated="true" UUID="7ce190fb-5fe1-455f-a39a-6dad718fed8a" autoIncrement="false" defaultValue="" name="debitcredit_ind" nullable="1" physicalName="debitcredit_ind" precision="1" referenceCount="1" scale="0" source-column-ref="COL43" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL461" populated="true" UUID="d5624b08-1598-4be2-a771-2c29567c6268" autoIncrement="false" defaultValue="" name="posting_period" nullable="1" physicalName="posting_period" precision="0" referenceCount="1" scale="0" source-column-ref="COL26" sourceDataTypeName="varchar" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL462" populated="true" UUID="e47a25ba-5326-4d07-9f35-b547f9949564" autoIncrement="false" defaultValue="" name="posting_date" nullable="1" physicalName="posting_date" precision="0" referenceCount="1" scale="0" source-column-ref="COL25" sourceDataTypeName="varchar" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    <column id="COL463" populated="true" UUID="dfa96bdd-761a-414f-b1fb-727938473e70" autoIncrement="false" defaultValue="now()" name="last_update" nullable="1" physicalName="last_update" precision="0" referenceCount="1" scale="0" sourceDataTypeName="timestamp" type="93" userDefinedTypeUUID="6497d8de-0e00-40d6-a42e-e2adca83be64" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB4383" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB4382" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB4384" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX464" populated="true" UUID="452594c6-5774-4b9b-8fdb-e671c84bbd8d" clustered="false" name="sap_faglflexa_pk" physicalName="sap_faglflexa_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC465" populated="true" UUID="69287817-bb34-4468-a13a-77ef1a9cac67" ascendingOrDescending="UNSPECIFIED" column-ref="COL439" name="fiscal_year" physicalName="fiscal_year" />
+     <index-column id="IDC466" populated="true" UUID="2f36d6b9-0d4b-49ed-8072-744ae9a49eab" ascendingOrDescending="UNSPECIFIED" column-ref="COL440" name="document_number" physicalName="document_number" />
+     <index-column id="IDC467" populated="true" UUID="b55467f3-ec7a-4673-a910-d5e32ce8cea1" ascendingOrDescending="UNSPECIFIED" column-ref="COL441" name="line_item" physicalName="line_item" />
+     <index-column id="IDC468" populated="true" UUID="f56aec18-76ea-45ce-bbdc-ff85871f0291" ascendingOrDescending="UNSPECIFIED" column-ref="COL442" name="gl_account" physicalName="gl_account" />
+    </index>
+   </folder>
+  </table>
   <relationships>
   </relationships>
  </target-database>
- <ddl-generator type="ca.sqlpower.architect.ddl.PostgresDDLGenerator" allow-connection="false" target-schema="public"> </ddl-generator>
+ <ddl-generator type="ca.sqlpower.architect.ddl.PostgresDDLGenerator" allow-connection="true" target-schema="public"> </ddl-generator>
  <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
  <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
  <play-pen zoom="1.0" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
@@ -1663,7 +1755,7 @@
   <table-pane table-ref="TAB207" x="1037" y="169" bgColor="0xc8dccc" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB212" x="1037" y="607" bgColor="0xc8dccc" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB216" x="278" y="20" bgColor="0xb9bbf6" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB227" x="278" y="578" bgColor="0xb9bbf6" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB227" x="55" y="750" bgColor="0xb9bbf6" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB236" x="1039" y="740" bgColor="0xc8dccc" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB240" x="53" y="18" bgColor="0xb9bbf6" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB257" x="1037" y="24" bgColor="0xc8dccc" fgColor="0x000000" rounded="false" dashed="false"/>
@@ -1680,9 +1772,10 @@
   <table-pane table-ref="TAB351" x="1037" y="97" bgColor="0xc8dccc" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB355" x="280" y="185" bgColor="0xb9bbf6" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB383" x="796" y="173" bgColor="0xf6bcbc" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB389" x="508" y="20" bgColor="0xb9bbf6" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB400" x="508" y="189" bgColor="0xb9bbf6" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB412" x="509" y="378" bgColor="0xb9bbf6" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB389" x="275" y="592" bgColor="0xb9bbf6" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB400" x="276" y="758" bgColor="0xb9bbf6" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB412" x="526" y="24" bgColor="0xb9bbf6" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB438" x="528" y="420" bgColor="0xb9bbf6" fgColor="0x000000" rounded="false" dashed="false"/>
  </play-pen>
  <critic-manager>
   <critic-grouping platformType="Generic" enabled="true">
